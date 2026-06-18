@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tournament Bracket · Pervis Polk 3×3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:#F0EDE6;font-family:'Archivo',sans-serif;color:#23261F;}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+@page{size:letter landscape;margin:0.4in;}
+@media print{
+  .no-print{display:none!important;}
+  body{background:#F0EDE6;}
+}
+.page{max-width:1280px;margin:0 auto;padding:24px;}
+.doc-header{background:#23261F;color:#F4F1EA;display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-radius:8px 8px 0 0;}
+.doc-header h1{font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;margin:0;line-height:1;}
+.doc-header .event-name{font-family:'Anton',sans-serif;font-size:34px;color:#1179B5;text-transform:uppercase;}
+.doc-subheader{background:#927A43;color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 28px;}
+.doc-body{background:#F0EDE6;padding:22px 24px 28px;border-radius:0 0 8px 8px;}
+.layout{display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:start;}
+/* Pool play */
+.pools{display:flex;flex-direction:column;gap:14px;}
+.pool-block{border-radius:6px;overflow:hidden;border:1px solid rgba(35,38,31,0.18);}
+.pool-header{font-family:'Anton',sans-serif;font-size:15px;text-transform:uppercase;color:#F4F1EA;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;}
+.pool-header .wl{font-size:10px;font-weight:700;letter-spacing:1px;opacity:0.7;}
+.pool-a .pool-header{background:#927A43;}
+.pool-b .pool-header{background:#1179B5;}
+.pool-c .pool-header{background:#1179B5;}
+.pool-d .pool-header{background:#23261F;}
+.pool-rows{background:#fff;}
+.pool-row{display:grid;grid-template-columns:28px 1fr 36px 36px;align-items:center;border-top:1px solid rgba(35,38,31,0.1);font-size:13px;}
+.pool-row:first-child{border-top:none;}
+.pool-row .seed{padding:8px 8px;font-weight:700;color:#6b6d62;font-size:12px;}
+.pool-row .name{padding:8px 6px;border-left:1px solid rgba(35,38,31,0.08);}
+.pool-row .stat{padding:8px 4px;border-left:1px solid rgba(35,38,31,0.08);text-align:center;color:#aaa;}
+/* Bracket area */
+.bracket-area{display:flex;flex-direction:column;gap:20px;}
+.bracket-section-title{font-family:'Anton',sans-serif;font-size:18px;text-transform:uppercase;margin:0 0 4px;}
+.bracket-subtitle{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1179B5;margin-bottom:10px;}
+.bracket-grid{display:grid;grid-template-columns:200px 48px 180px 48px 200px;align-items:center;gap:0;}
+.bracket-col{display:flex;flex-direction:column;gap:0;}
+.col-label{font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#6b6d62;margin-bottom:6px;height:14px;}
+.matchup{background:#fff;border:1px solid rgba(35,38,31,0.2);border-radius:4px;padding:7px 10px;font-size:12px;font-weight:500;color:#3a3c33;margin-bottom:4px;min-height:30px;}
+.matchup.blank{background:#fff;border:1px dashed rgba(35,38,31,0.25);color:#bbb;}
+.matchup.champion{background:#1179B5;color:#fff;font-family:'Anton',sans-serif;font-size:15px;text-align:center;padding:12px 10px;border:none;}
+.matchup.consolation-win{background:#23261F;color:#F4F1EA;font-family:'Anton',sans-serif;font-size:13px;text-align:center;padding:10px;border:none;}
+.connector-col{display:flex;flex-direction:column;justify-content:space-around;align-items:center;padding-top:20px;}
+.conn-line{width:48px;height:2px;background:rgba(35,38,31,0.2);}
+.format-box{background:#23261F;color:#F4F1EA;border-radius:6px;padding:14px 16px;font-size:12px;line-height:1.7;margin-top:8px;}
+.format-box strong{display:block;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#927A43;margin-bottom:6px;}
+.footer{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:14px;border-top:3px solid #23261F;font-size:12px;color:#6b6d62;letter-spacing:0.5px;}
+.print-btn{background:#1179B5;color:#fff;border:none;font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:9px 18px;border-radius:5px;cursor:pointer;margin-bottom:14px;}
+.print-btn:hover{background:#0e6aa0;}
+.section-divider{border-top:1px solid rgba(35,38,31,0.18);margin:16px 0 14px;}
+/* QF pairs for bracket */
+.qf-pair{margin-bottom:10px;}
+.qf-pair .matchup{margin-bottom:2px;}
+.sf-slot{margin:20px 0;}
+</style>
+</head>
+<body>
+<div class="page">
+  <button class="no-print print-btn" onclick="window.print()">Print / Save PDF</button>
+
+  <div class="doc-header">
+    <div>
+      <h1>Tournament Bracket</h1>
+    </div>
+    <div class="event-name">Pervis Polk 3×3</div>
+  </div>
+  <div class="doc-subheader">16 Teams &nbsp;·&nbsp; 4 Pools of 4 &nbsp;·&nbsp; Championship + Consolation &nbsp;·&nbsp; Blair High School</div>
+
+  <div class="doc-body">
+    <div class="layout">
+
+      <!-- LEFT: Pool Play -->
+      <div>
+        <div style="font-family:'Anton',sans-serif;font-size:17px;text-transform:uppercase;margin-bottom:12px;">Pool Play <span style="font-size:12px;font-weight:400;font-family:'Archivo',sans-serif;color:#6b6d62;">(Round Robin)</span></div>
+        <div class="pools">
+
+          <div class="pool-block pool-a">
+            <div class="pool-header">Pool A <span class="wl">W – L</span></div>
+            <div class="pool-rows">
+              <div class="pool-row"><div class="seed">A1</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">A2</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">A3</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">A4</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+            </div>
+          </div>
+
+          <div class="pool-block pool-b">
+            <div class="pool-header">Pool B <span class="wl">W – L</span></div>
+            <div class="pool-rows">
+              <div class="pool-row"><div class="seed">B1</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">B2</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">B3</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">B4</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+            </div>
+          </div>
+
+          <div class="pool-block pool-c">
+            <div class="pool-header">Pool C <span class="wl">W – L</span></div>
+            <div class="pool-rows">
+              <div class="pool-row"><div class="seed">C1</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">C2</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">C3</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">C4</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+            </div>
+          </div>
+
+          <div class="pool-block pool-d">
+            <div class="pool-header">Pool D <span class="wl">W – L</span></div>
+            <div class="pool-rows">
+              <div class="pool-row"><div class="seed">D1</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">D2</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">D3</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+              <div class="pool-row"><div class="seed">D4</div><div class="name"></div><div class="stat"></div><div class="stat"></div></div>
+            </div>
+          </div>
+
+          <div class="format-box">
+            <strong>Format</strong>
+            Game: first to 21 or 10 min<br>
+            12-second shot clock<br>
+            Inside arc = 1 pt · behind arc = 2 pts<br>
+            Overtime: first to 2<br>
+            Every team plays 4+ games<br>
+            Rank: wins → H2H → diff (±10)
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(244,241,234,0.2);font-size:11px;color:#927A43;font-weight:700;">Seeds are illustrative — cross-pool draw avoids rematches.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Brackets -->
+      <div class="bracket-area">
+
+        <!-- Championship -->
+        <div>
+          <div class="bracket-section-title">Championship — Top 2 Per Pool (8)</div>
+          <div style="display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr 40px 220px;gap:0;align-items:start;">
+
+            <!-- QF -->
+            <div>
+              <div class="col-label">Quarterfinals</div>
+              <div class="qf-pair">
+                <div class="matchup">1st Pool A ___________</div>
+                <div class="matchup">2nd Pool D ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">1st Pool B ___________</div>
+                <div class="matchup">2nd Pool C ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">1st Pool C ___________</div>
+                <div class="matchup">2nd Pool B ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">1st Pool D ___________</div>
+                <div class="matchup">2nd Pool A ___________</div>
+              </div>
+            </div>
+
+            <!-- connector -->
+            <div style="padding-top:30px;display:flex;flex-direction:column;gap:0;align-items:center;">
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);margin-bottom:0;"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:30px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+              <div style="height:28px;"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:30px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+            </div>
+
+            <!-- SF -->
+            <div>
+              <div class="col-label">Semifinals</div>
+              <div style="height:46px;"></div>
+              <div class="matchup blank" style="margin-bottom:60px;">SF1 ___________</div>
+              <div style="height:46px;"></div>
+              <div class="matchup blank">SF2 ___________</div>
+            </div>
+
+            <!-- connector -->
+            <div style="padding-top:80px;display:flex;flex-direction:column;align-items:center;">
+              <div style="width:2px;height:40px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:40px;background:rgba(35,38,31,0.2);"></div>
+            </div>
+
+            <!-- Final -->
+            <div>
+              <div class="col-label">Final</div>
+              <div style="height:60px;"></div>
+              <div class="matchup champion">🏆 Champion<br><div style="border-bottom:1px solid rgba(255,255,255,0.5);height:20px;margin-top:8px;"></div></div>
+            </div>
+
+            <div></div>
+
+            <!-- Results -->
+            <div style="padding-top:20px;">
+              <div style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#927A43;margin-bottom:8px;">Pervis Polk Cup</div>
+              <div style="font-size:13px;margin-bottom:8px;">Runner-up: <span style="display:inline-block;border-bottom:1px solid #23261F;width:110px;height:16px;vertical-align:bottom;"></span></div>
+              <div style="font-size:13px;">3rd place: <span style="display:inline-block;border-bottom:1px solid #23261F;width:115px;height:16px;vertical-align:bottom;"></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <!-- Consolation -->
+        <div>
+          <div class="bracket-section-title">Consolation — Bottom 2 Per Pool (8)</div>
+          <div style="display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr;gap:0;align-items:start;">
+
+            <!-- QF -->
+            <div>
+              <div class="col-label">Quarterfinals</div>
+              <div class="qf-pair">
+                <div class="matchup">3rd Pool A ___________</div>
+                <div class="matchup">4th Pool D ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">3rd Pool B ___________</div>
+                <div class="matchup">4th Pool C ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">3rd Pool C ___________</div>
+                <div class="matchup">4th Pool B ___________</div>
+              </div>
+              <div style="height:14px;"></div>
+              <div class="qf-pair">
+                <div class="matchup">3rd Pool D ___________</div>
+                <div class="matchup">4th Pool A ___________</div>
+              </div>
+            </div>
+
+            <!-- connector -->
+            <div style="padding-top:30px;display:flex;flex-direction:column;align-items:center;">
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:30px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+              <div style="height:28px;"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:30px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:34px;background:rgba(35,38,31,0.2);"></div>
+            </div>
+
+            <!-- SF -->
+            <div>
+              <div class="col-label">Semifinals</div>
+              <div style="height:46px;"></div>
+              <div class="matchup blank" style="margin-bottom:60px;">SF1 ___________</div>
+              <div style="height:46px;"></div>
+              <div class="matchup blank">SF2 ___________</div>
+            </div>
+
+            <!-- connector -->
+            <div style="padding-top:80px;display:flex;flex-direction:column;align-items:center;">
+              <div style="width:2px;height:40px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:40px;height:2px;background:rgba(35,38,31,0.2);"></div>
+              <div style="width:2px;height:40px;background:rgba(35,38,31,0.2);"></div>
+            </div>
+
+            <!-- Consolation Final -->
+            <div>
+              <div class="col-label">Consolation Final</div>
+              <div style="height:60px;"></div>
+              <div class="matchup consolation-win">Consolation<br>Champion: <span style="display:inline-block;border-bottom:1px solid rgba(244,241,234,0.5);width:80px;height:16px;vertical-align:bottom;"></span></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /bracket-area -->
+    </div><!-- /layout -->
+
+    <div class="footer">
+      <span><em>1st Annual Pervis Polk Memorial 3×3 · Family. Community. Competition.</em></span>
+      <span>Benefiting three local high schools &nbsp;·&nbsp; Blair High School, Pasadena · July 2026</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
