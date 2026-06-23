@@ -1,0 +1,39 @@
+{
+  "tiers": [
+    {
+      "id": "title",
+      "label": "Title Sponsor",
+      "price": "$1,000",
+      "description": "Premier brand placement — logo on all materials, featured on every page, presenting sponsor recognition.",
+      "sponsors": []
+    },
+    {
+      "id": "court",
+      "label": "Court Sponsor",
+      "price": "$500",
+      "description": "Named court sponsorship — logo on court signage, website, and printed schedule.",
+      "sponsors": []
+    },
+    {
+      "id": "trophy",
+      "label": "Trophy Sponsor",
+      "price": "$350",
+      "description": "Logo on trophy table, website, and awards ceremony recognition.",
+      "sponsors": []
+    },
+    {
+      "id": "community",
+      "label": "Community Friend",
+      "price": "$150",
+      "description": "Name/logo on website and event program.",
+      "sponsors": []
+    },
+    {
+      "id": "inkind",
+      "label": "In-Kind",
+      "price": "Goods/Services",
+      "description": "Donated goods or services. Recognition on website and event day.",
+      "sponsors": []
+    }
+  ]
+}

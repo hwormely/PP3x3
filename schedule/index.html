@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule · Pervis Polk Memorial 3×3 · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--oak:#23261F;--char:#262922;--paper:#EFEEE9;--brown:#927A43;--azure:#033B7A;--blue:#1179B5;--grey:#AEAEA6;--line:#3A3D33;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--oak);color:var(--paper);font-family:'Archivo',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+nav{border-bottom:1px solid var(--line);padding:16px 0}
+nav .inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+nav .home{font-family:'Anton';font-size:18px;color:var(--paper)}
+nav .home span{color:var(--blue)}
+nav .links{display:flex;gap:20px;margin-left:auto;font-size:13px;font-weight:600;letter-spacing:.05em}
+nav .links a{color:var(--grey)}
+nav .links a:hover{color:var(--paper)}
+nav .links a.active{color:var(--blue)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.hero{padding:48px 0 36px;border-bottom:1px solid var(--line)}
+.kick{font-family:'Inter';font-weight:700;letter-spacing:.18em;font-size:12px;color:var(--blue);text-transform:uppercase;margin-bottom:12px}
+h1{font-family:'Anton';font-size:clamp(40px,8vw,80px);line-height:.9;margin-bottom:16px}
+.lede{font-size:16px;color:var(--grey);max-width:600px}
+.controls{padding:24px 0;display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-bottom:1px solid var(--line)}
+.search-wrap{flex:1;min-width:200px;max-width:340px;position:relative}
+.search-wrap input{width:100%;background:var(--char);border:1px solid var(--line);color:var(--paper);font-family:'Inter';font-size:14px;padding:10px 14px 10px 36px;border-radius:5px;outline:none}
+.search-wrap input::placeholder{color:var(--grey)}
+.search-wrap input:focus{border-color:var(--blue)}
+.search-wrap .icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--grey);pointer-events:none}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filter-btn{background:var(--char);border:1px solid var(--line);color:var(--grey);font-family:'Inter';font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:4px;cursor:pointer}
+.filter-btn:hover{border-color:var(--grey);color:var(--paper)}
+.filter-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+#results-count{font-family:'Inter';font-size:13px;color:var(--grey);margin-left:auto;white-space:nowrap}
+.day-block{padding:28px 0 0}
+.day-label{font-family:'Anton';font-size:28px;color:var(--paper);margin-bottom:4px}
+.day-sub{font-size:13px;color:var(--grey);font-family:'Inter';margin-bottom:16px}
+.game-list{display:flex;flex-direction:column;gap:6px;margin-bottom:32px}
+.game-row{background:var(--char);border:1px solid var(--line);border-radius:6px;display:grid;grid-template-columns:70px 60px 1fr 28px 1fr 90px;align-items:center;gap:0;overflow:hidden;transition:border-color .12s}
+.game-row:hover{border-color:#3a5a6a}
+.game-row.highlight{border-color:var(--blue);background:#1a2a35}
+.game-row .time{padding:12px 14px;font-family:'Inter';font-weight:700;font-size:13px;color:var(--paper);border-right:1px solid var(--line)}
+.game-row .court{padding:12px 12px;font-family:'Inter';font-weight:600;font-size:11px;color:var(--grey);text-transform:uppercase;letter-spacing:.06em;border-right:1px solid var(--line);text-align:center}
+.game-row .team-a{padding:12px 16px;font-size:14px;font-weight:600;color:var(--paper);text-align:right}
+.game-row .vs{font-family:'Inter';font-size:11px;font-weight:700;color:var(--grey);text-align:center;padding:0 4px}
+.game-row .team-b{padding:12px 16px;font-size:14px;font-weight:600;color:var(--paper)}
+.game-row .stage{padding:12px 14px;font-family:'Inter';font-size:11px;color:var(--grey);text-align:right;border-left:1px solid var(--line)}
+.empty{padding:48px 0;text-align:center;color:var(--grey);font-family:'Inter'}
+.empty .big{font-family:'Anton';font-size:40px;color:var(--line);margin-bottom:8px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 50px;color:var(--grey);font-size:13px;font-family:'Inter';text-align:center}
+footer strong{color:var(--paper)}
+@media(max-width:700px){
+  .game-row{grid-template-columns:60px 50px 1fr 20px 1fr;font-size:12px}
+  .game-row .stage{display:none}
+  .game-row .time{padding:10px 10px;font-size:12px}
+  .game-row .team-a,.game-row .team-b{padding:10px 8px;font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="inner">
+    <a href="/" class="home">PP<span>3×3</span></a>
+    <div class="links">
+      <a href="/register/">Register</a>
+      <a href="/schedule/" class="active">Schedule</a>
+      <a href="/brackets/">Brackets</a>
+      <a href="/sponsors/">Sponsors</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="kick">Aug 15–16, 2026 · Blair High School · Pasadena</div>
+    <h1>FULL<br>SCHEDULE</h1>
+    <p class="lede">161 games across 2 days. Search your team name to see your games, or filter by day, court, or pool.</p>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg class="icon" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="teamSearch" placeholder="Find my team…" autocomplete="off">
+    </div>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="day1">Sat Aug 15</button>
+      <button class="filter-btn" data-filter="day2">Sun Aug 16</button>
+      <button class="filter-btn" data-filter="court1">Court 1</button>
+      <button class="filter-btn" data-filter="court2">Court 2</button>
+      <button class="filter-btn" data-filter="court3">Court 3</button>
+      <button class="filter-btn" data-filter="court4">Court 4</button>
+    </div>
+    <span id="results-count"></span>
+  </div>
+
+  <div id="schedule-output">
+    <div class="empty"><div class="big">⏳</div>Loading schedule…</div>
+  </div>
+</div>
+
+<footer>
+  <strong>Pervis Polk Memorial 3×3</strong> · Blair High School, Pasadena · Aug 15–16, 2026 ·
+  <a href="mailto:pp3x3cup@gmail.com">pp3x3cup@gmail.com</a>
+</footer>
+
+<script>
+(function(){
+  var activeFilter = 'all';
+  var searchTerm = '';
+  var scheduleData = null;
+
+  fetch('../schedule.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      scheduleData = data;
+      render();
+    })
+    .catch(function(){
+      document.getElementById('schedule-output').innerHTML =
+        '<div class="empty"><div class="big">!</div>Schedule data unavailable.</div>';
+    });
+
+  document.getElementById('teamSearch').addEventListener('input', function(){
+    searchTerm = this.value.trim().toLowerCase();
+    render();
+  });
+
+  document.getElementById('filters').addEventListener('click', function(e){
+    var btn = e.target.closest('.filter-btn');
+    if(!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    render();
+  });
+
+  function matchesFilter(game, dayKey) {
+    if(activeFilter === 'day1' && dayKey !== 'day1') return false;
+    if(activeFilter === 'day2' && dayKey !== 'day2') return false;
+    if(activeFilter === 'court1' && game.court !== 1) return false;
+    if(activeFilter === 'court2' && game.court !== 2) return false;
+    if(activeFilter === 'court3' && game.court !== 3) return false;
+    if(activeFilter === 'court4' && game.court !== 4) return false;
+    if(searchTerm) {
+      var a = (game.teamA||'').toLowerCase();
+      var b = (game.teamB||'').toLowerCase();
+      var s = (game.stage||'').toLowerCase();
+      if(a.indexOf(searchTerm)===-1 && b.indexOf(searchTerm)===-1 && s.indexOf(searchTerm)===-1) return false;
+    }
+    return true;
+  }
+
+  function render(){
+    if(!scheduleData) return;
+    var out = '';
+    var total = 0;
+    var days = [
+      {key:'day1', label:'Saturday, Aug 15', sub:'Pool Play · 100 games · Courts 1–4 · 8:30 AM start'},
+      {key:'day2', label:'Sunday, Aug 16', sub:'Bracket Play · 61 games · Courts 1–4 · 9:00 AM start'}
+    ];
+    days.forEach(function(d){
+      var games = (scheduleData[d.key]||[]).filter(function(g){ return matchesFilter(g, d.key); });
+      if(!games.length) return;
+      total += games.length;
+      out += '<div class="day-block">';
+      out += '<div class="day-label">'+d.label+'</div>';
+      out += '<div class="day-sub">'+d.sub+'</div>';
+      out += '<div class="game-list">';
+      games.forEach(function(g){
+        var hi = searchTerm && (
+          (g.teamA||'').toLowerCase().indexOf(searchTerm)>-1 ||
+          (g.teamB||'').toLowerCase().indexOf(searchTerm)>-1
+        );
+        out += '<div class="game-row'+(hi?' highlight':'')+'">'+
+          '<div class="time">'+g.time+'</div>'+
+          '<div class="court">C'+g.court+'</div>'+
+          '<div class="team-a">'+g.teamA+'</div>'+
+          '<div class="vs">vs</div>'+
+          '<div class="team-b">'+g.teamB+'</div>'+
+          '<div class="stage">'+g.stage+'</div>'+
+          '</div>';
+      });
+      out += '</div></div>';
+    });
+    if(!total){
+      out = '<div class="empty"><div class="big">🏀</div>No games match your filter.</div>';
+    }
+    document.getElementById('schedule-output').innerHTML = out;
+    document.getElementById('results-count').textContent = total ? total+' game'+(total===1?'':'s') : '';
+  }
+})();
+</script>
+
+</body>
+</html>

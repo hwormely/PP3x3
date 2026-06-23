@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brackets · Pervis Polk Memorial 3×3 · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--oak:#23261F;--char:#262922;--paper:#EFEEE9;--brown:#927A43;--azure:#033B7A;--blue:#1179B5;--grey:#AEAEA6;--line:#3A3D33;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--oak);color:var(--paper);font-family:'Archivo',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+nav{border-bottom:1px solid var(--line);padding:16px 0}
+nav .inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+nav .home{font-family:'Anton';font-size:18px;color:var(--paper)}
+nav .home span{color:var(--blue)}
+nav .links{display:flex;gap:20px;margin-left:auto;font-size:13px;font-weight:600;letter-spacing:.05em}
+nav .links a{color:var(--grey)}
+nav .links a:hover{color:var(--paper)}
+nav .links a.active{color:var(--blue)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.hero{padding:48px 0 36px;border-bottom:1px solid var(--line)}
+.kick{font-family:'Inter';font-weight:700;letter-spacing:.18em;font-size:12px;color:var(--blue);text-transform:uppercase;margin-bottom:12px}
+h1{font-family:'Anton';font-size:clamp(40px,8vw,80px);line-height:.9;margin-bottom:16px}
+.lede{font-size:16px;color:var(--grey);max-width:640px}
+.tabs{display:flex;gap:4px;padding:28px 0 0;border-bottom:1px solid var(--line);margin-bottom:32px}
+.tab-btn{background:none;border:none;color:var(--grey);font-family:'Inter';font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:10px 18px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab-btn:hover{color:var(--paper)}
+.tab-btn.active{color:var(--blue);border-bottom-color:var(--blue)}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.bracket-section{margin-bottom:40px}
+.section-label{font-family:'Inter';font-weight:700;letter-spacing:.14em;font-size:11px;color:var(--brown);text-transform:uppercase;margin-bottom:16px}
+.bracket-img-wrap{background:var(--char);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-bottom:12px}
+.bracket-img-wrap img{width:100%;height:auto;display:block}
+.bracket-dl{display:flex;gap:10px;margin-bottom:32px}
+.dl-btn{display:inline-flex;align-items:center;gap:7px;background:var(--char);border:1px solid var(--line);color:var(--paper);font-family:'Inter';font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:10px 16px;border-radius:4px}
+.dl-btn:hover{border-color:var(--grey)}
+.day1-board{background:var(--char);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-bottom:12px}
+.day1-board img{width:100%;height:auto;display:block}
+.info-box{background:var(--char);border:1px solid var(--line);border-radius:6px;padding:20px 22px;margin-bottom:16px}
+.info-box h4{font-family:'Anton';font-size:20px;margin-bottom:8px}
+.info-box p,.info-box ul{font-size:14px;color:var(--grey);line-height:1.7}
+.info-box ul{list-style:none;padding:0}
+.info-box ul li{padding-left:16px;position:relative}
+.info-box ul li::before{content:'·';position:absolute;left:0;color:var(--brown)}
+.seed-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:32px}
+.seed-card{background:var(--char);border:1px solid var(--line);border-radius:6px;padding:18px 20px}
+.seed-card .title{font-family:'Anton';font-size:18px;margin-bottom:6px}
+.seed-card.champ .title{color:var(--blue)}
+.seed-card.consol .title{color:var(--brown)}
+.seed-card.community .title{color:var(--grey)}
+.seed-card p{font-size:13px;color:var(--grey)}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 50px;color:var(--grey);font-size:13px;font-family:'Inter';text-align:center}
+footer strong{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="inner">
+    <a href="/" class="home">PP<span>3×3</span></a>
+    <div class="links">
+      <a href="/register/">Register</a>
+      <a href="/schedule/">Schedule</a>
+      <a href="/brackets/" class="active">Brackets</a>
+      <a href="/sponsors/">Sponsors</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="kick">Tournament Brackets · Aug 15–16, 2026</div>
+    <h1>BRACKETS<br>& POOLS</h1>
+    <p class="lede">Day 1 pool boards + all three Day 2 brackets — Championship, Consolation, and Community. Updated live as results come in.</p>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="day2">Day 2 Brackets</button>
+    <button class="tab-btn" data-tab="day1">Day 1 Pool Board</button>
+    <button class="tab-btn" data-tab="format">Format</button>
+  </div>
+
+  <!-- DAY 2 BRACKETS -->
+  <div class="tab-panel active" id="tab-day2">
+
+    <div class="seed-grid">
+      <div class="seed-card champ">
+        <div class="title">Championship</div>
+        <p>Seeds 1–16 · Top finishers from pool play</p>
+      </div>
+      <div class="seed-card consol">
+        <div class="title">Consolation</div>
+        <p>Seeds 17–32 · Middle of the pack</p>
+      </div>
+      <div class="seed-card community">
+        <div class="title">Community</div>
+        <p>Seeds 33–50 · Fun pods of 6, everyone plays</p>
+      </div>
+    </div>
+
+    <div class="bracket-section">
+      <div class="section-label">Championship Bracket — Seeds 1–16</div>
+      <div class="bracket-img-wrap">
+        <img src="../brackets_day2/Day2_1_Championship_Bracket.png" alt="Championship Bracket" loading="lazy">
+      </div>
+      <div class="bracket-dl">
+        <a href="../brackets_day2/Day2_1_Championship_Bracket.pdf" class="dl-btn" download>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="bracket-section">
+      <div class="section-label">Consolation Bracket — Seeds 17–32</div>
+      <div class="bracket-img-wrap">
+        <img src="../brackets_day2/Day2_2_Consolation_Bracket.png" alt="Consolation Bracket" loading="lazy">
+      </div>
+      <div class="bracket-dl">
+        <a href="../brackets_day2/Day2_2_Consolation_Bracket.pdf" class="dl-btn" download>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="bracket-section">
+      <div class="section-label">Community Bracket — Seeds 33–50</div>
+      <div class="bracket-img-wrap">
+        <img src="../brackets_day2/Day2_3_Community_Bracket.png" alt="Community Bracket" loading="lazy">
+      </div>
+      <div class="bracket-dl">
+        <a href="../brackets_day2/Day2_3_Community_Bracket.pdf" class="dl-btn" download>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download PDF
+        </a>
+        <a href="../resources/Bracket_Day2_AllThree.pdf" class="dl-btn" download>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          All 3 Brackets (PDF)
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DAY 1 POOL BOARD -->
+  <div class="tab-panel" id="tab-day1">
+
+    <div class="bracket-section">
+      <div class="section-label">Day 1 Pool Board — 10 Pools of 5</div>
+      <div class="day1-board">
+        <img src="../resources/Bracket_Board_50team.png" alt="Day 1 Pool Board" loading="lazy">
+      </div>
+      <div class="bracket-dl">
+        <a href="../resources/Bracket_Board_50team_PRINTABLE.pdf" class="dl-btn" download>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Printable Pool Board
+        </a>
+      </div>
+    </div>
+
+    <div class="section-label">Per-Court Schedules</div>
+    <div class="seed-grid">
+      <div class="seed-card champ">
+        <div class="title">Court 1</div>
+        <a href="../court_grids/Court_1_Schedule.pdf" download style="color:var(--blue);font-size:13px;font-family:'Inter';font-weight:600">Download PDF</a>
+      </div>
+      <div class="seed-card champ">
+        <div class="title">Court 2</div>
+        <a href="../court_grids/Court_2_Schedule.pdf" download style="color:var(--blue);font-size:13px;font-family:'Inter';font-weight:600">Download PDF</a>
+      </div>
+      <div class="seed-card champ">
+        <div class="title">Court 3</div>
+        <a href="../court_grids/Court_3_Schedule.pdf" download style="color:var(--blue);font-size:13px;font-family:'Inter';font-weight:600">Download PDF</a>
+      </div>
+      <div class="seed-card champ">
+        <div class="title">Court 4</div>
+        <a href="../court_grids/Court_4_Schedule.pdf" download style="color:var(--blue);font-size:13px;font-family:'Inter';font-weight:600">Download PDF</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FORMAT -->
+  <div class="tab-panel" id="tab-format">
+
+    <div class="info-box" style="margin-bottom:16px">
+      <h4>Day 1 — Pool Play (Saturday, Aug 15)</h4>
+      <ul>
+        <li>10 pools of 5 teams — full round-robin</li>
+        <li>Every team plays 4 guaranteed games</li>
+        <li>Courts 1–4 · 20-minute slots · 8:30 AM–5:00 PM</li>
+        <li>FIBA 3×3 rules — 21-point cap, 10-min game clock, 12-sec shot clock</li>
+        <li>Seeding tiebreaker order: pool finish → wins → head-to-head → capped differential (±10/game) → points scored → coin toss</li>
+      </ul>
+    </div>
+
+    <div class="info-box" style="margin-bottom:16px">
+      <h4>Day 2 — Bracket Play (Sunday, Aug 16)</h4>
+      <ul>
+        <li><strong style="color:var(--blue)">Championship</strong> — Seeds 1–16 · Single elimination · $1,350 champion / $750 runner-up / $450 third</li>
+        <li><strong style="color:var(--brown)">Consolation</strong> — Seeds 17–32 · Single elimination · $450 champion</li>
+        <li><strong style="color:var(--grey)">Community</strong> — Seeds 33–50 · Fun pods of 6 · All teams play</li>
+        <li>Courts 1–4 · 9:00 AM–~3:00 PM · Awards ceremony follows finals</li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h4>Prize Pool — $3,000 Total</h4>
+      <ul>
+        <li>Champion — $1,350</li>
+        <li>Runner-Up — $750</li>
+        <li>3rd Place — $450</li>
+        <li>Consolation Champion — $450</li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <strong>Pervis Polk Memorial 3×3</strong> · Blair High School, Pasadena · Aug 15–16, 2026 ·
+  <a href="mailto:pp3x3cup@gmail.com">pp3x3cup@gmail.com</a>
+</footer>
+
+<script>
+document.querySelectorAll('.tab-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    document.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
+    document.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.remove('active'); });
+    btn.classList.add('active');
+    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
