@@ -6,28 +6,22 @@
 <title>PP3×3 · 2026 Sponsorship Prospectus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Pinyon+Script&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
 
-/* Slide viewer */
 .viewer{position:relative;width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;}
 .slide-track{position:relative;width:100%;height:100%;}
-.slide{
-  position:absolute;inset:0;width:100%;height:100%;
-  display:none;
-}
+.slide{position:absolute;inset:0;width:100%;height:100%;display:none;}
 .slide.active{display:block;}
 
-/* Scale slides to fit viewport preserving 16:9 */
 .slide-scaler{
   position:absolute;top:50%;left:50%;
   transform-origin:top left;
   width:1920px;height:1080px;
 }
 
-/* Nav */
 .nav{
   position:fixed;bottom:28px;left:50%;transform:translateX(-50%);
   display:flex;align-items:center;gap:16px;z-index:100;
@@ -46,7 +40,6 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
 .nav .dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.28);transition:background 0.2s,transform 0.2s;cursor:pointer;}
 .nav .dot.active{background:#1179B5;transform:scale(1.4);}
 
-/* Fullscreen button */
 .fs-btn{
   position:fixed;top:16px;right:16px;z-index:100;
   background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.15);
@@ -54,26 +47,16 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
   font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;
   backdrop-filter:blur(8px);
 }
-
-/* Image slot placeholder */
-.img-placeholder{
-  background:rgba(255,255,255,0.04);border:1px dashed rgba(255,255,255,0.15);
-  border-radius:6px;display:flex;align-items:center;justify-content:center;
-  font-size:12px;color:rgba(255,255,255,0.3);text-align:center;padding:16px;
-}
-.img-placeholder-dark{
-  background:rgba(0,0,0,0.15);border:1px dashed rgba(35,38,31,0.3);
-  border-radius:6px;display:flex;align-items:center;justify-content:center;
-  font-size:12px;color:rgba(35,38,31,0.4);text-align:center;padding:16px;
-}
 </style>
 </head>
 <body>
 
+<button class="fs-btn" onclick="document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()">⛶ Fullscreen</button>
+
 <div class="viewer">
   <div class="slide-track" id="track">
 
-    <!-- Slide 01: Cover -->
+    <!-- 01 · Cover -->
     <div class="slide active">
       <div class="slide-scaler" id="scaler">
         <section style="position:relative;width:100%;height:100%;background:#23261F;color:#F4F1EA;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -93,15 +76,13 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
             <div style="font-size:112px;">Pervis Polk</div>
             <div style="font-size:112px;"><span style="color:#1179B5;">3×3</span> Tournament</div>
           </div>
-          <div class="img-placeholder" style="position:absolute;left:540px;top:660px;width:620px;height:150px;">Court photo</div>
-          <div class="img-placeholder" style="position:absolute;left:1230px;top:150px;width:610px;height:800px;">Pasadena / hoops photo</div>
           <div style="position:absolute;left:80px;bottom:118px;font-family:'Anton',sans-serif;font-size:84px;color:#927A43;letter-spacing:2px;">2026</div>
           <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
         </section>
       </div>
     </div>
 
-    <!-- Slide 02: Contents -->
+    <!-- 02 · Contents -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#F4F1EA;color:#23261F;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -124,7 +105,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
             <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">Why Sponsor</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">04</span></div>
             <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">Sponsorship Tiers</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">05</span></div>
             <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">The Numbers</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">06</span></div>
-            <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">The Day</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">07</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">The Days</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">07</span></div>
             <div style="display:flex;justify-content:space-between;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(35,38,31,0.16);"><span style="font-size:21px;font-weight:600;">Partner With Us</span><span style="font-family:'Anton',sans-serif;font-size:22px;color:#1179B5;">08</span></div>
           </div>
           <div style="position:absolute;left:74px;bottom:-18px;font-family:'Anton',sans-serif;font-size:150px;color:#AEAEA6;letter-spacing:-1px;text-transform:uppercase;opacity:0.55;">Contents</div>
@@ -133,7 +114,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
       </div>
     </div>
 
-    <!-- Slide 03: Big Picture -->
+    <!-- 03 · Big Picture -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#F4F1EA;color:#23261F;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -148,8 +129,8 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
             <div style="font-family:'Anton',sans-serif;font-size:74px;line-height:0.96;text-transform:uppercase;color:#033B7A;">Sponsorship powers the gift.</div>
           </div>
           <div style="position:absolute;top:380px;left:80px;width:980px;display:grid;grid-template-columns:1fr 1fr;gap:48px;">
-            <p style="margin:0;font-size:23px;line-height:1.55;color:#3a3c33;">A field of 50 teams at $250 each generates $12,500 in entry revenue — enough to run a first-class two-day tournament. Sponsorship pushes the total to $22,500 and makes the community gift possible.</p>
-            <p style="margin:0;font-size:23px;line-height:1.55;color:#3a3c33;">Every dollar raised puts $1,000 into three local high schools — with John Muir's gift seeding a scholarship fund in Pervis's name.<br><br><strong style="color:#23261F;">Goal, year one: $10,000 in sponsorship and grow it from there.</strong></p>
+            <p style="margin:0;font-size:23px;line-height:1.55;color:#3a3c33;">A field of 50 teams at $250 each funds a first-class two-day event. Sponsorship turns the donation from "just made it" into "exceeded the goal."</p>
+            <p style="margin:0;font-size:23px;line-height:1.55;color:#3a3c33;">Every dollar raised helps put $1,000 into three local high schools — starting with the John Muir Mustangs.<br><br><strong style="color:#23261F;">Goal, year one: donate $3,000+ and grow it from there.</strong></p>
           </div>
           <div style="position:absolute;top:600px;left:80px;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#927A43;">Source · The Legacy Land Project · 2026 tournament budget</div>
           <div style="position:absolute;top:150px;left:1180px;width:660px;display:flex;flex-direction:column;gap:16px;">
@@ -163,27 +144,26 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
       </div>
     </div>
 
-    <!-- Slide 04: Section divider – The Event -->
+    <!-- 04 · Section · The Event -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#23261F;color:#F4F1EA;font-family:'Archivo',sans-serif;overflow:hidden;">
-          <div class="img-placeholder" style="position:absolute;inset:0;width:100%;height:100%;border-radius:0;border:none;opacity:0.35;background:#1a1c16;"></div>
-          <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,38,31,0.74) 0%,rgba(35,38,31,0.55) 45%,rgba(35,38,31,0.88) 100%);"></div>
-          <div style="position:absolute;top:44px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;border-bottom:1px solid rgba(244,241,234,0.3);padding-bottom:14px;">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,38,31,0.74) 0%,rgba(35,38,31,0.55) 45%,rgba(35,38,31,0.88) 100%);pointer-events:none;"></div>
+          <div style="position:absolute;top:44px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;border-bottom:1px solid rgba(244,241,234,0.3);padding-bottom:14px;pointer-events:none;">
             <span>Pervis Polk Memorial 3×3</span>
             <span style="color:#AEAEA6;">The Cup</span>
             <span style="color:#AEAEA6;">2026 Sponsorship Prospectus</span>
             <span>04</span>
           </div>
-          <div style="position:absolute;top:150px;left:80px;font-size:15px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1179B5;">Section 01</div>
-          <div style="position:absolute;top:50%;left:80px;transform:translateY(-50%);font-family:'Anton',sans-serif;font-size:220px;line-height:0.82;text-transform:uppercase;text-shadow:0 6px 40px rgba(0,0,0,0.4);">The<br>Event</div>
-          <div style="position:absolute;bottom:108px;left:80px;width:1000px;font-size:26px;font-weight:500;line-height:1.4;">Two days. Fifty teams. Four courts. A community brought together for Pervis.</div>
-          <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
+          <div style="position:absolute;top:150px;left:80px;font-size:15px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1179B5;pointer-events:none;">Section 01</div>
+          <div style="position:absolute;top:50%;left:80px;transform:translateY(-50%);font-family:'Anton',sans-serif;font-size:220px;line-height:0.82;text-transform:uppercase;pointer-events:none;text-shadow:0 6px 40px rgba(0,0,0,0.4);">The<br>Event</div>
+          <div style="position:absolute;bottom:108px;left:80px;width:1000px;font-size:26px;font-weight:500;line-height:1.4;pointer-events:none;">Two days. Fifty teams. Four courts. A community brought together for Pervis.</div>
+          <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;pointer-events:none;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
         </section>
       </div>
     </div>
 
-    <!-- Slide 05: Event at a Glance -->
+    <!-- 05 · Event at a Glance -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#F4F1EA;color:#23261F;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -206,12 +186,13 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
           <div style="position:absolute;top:300px;left:700px;width:560px;">
             <div style="display:inline-block;background:#927A43;color:#F4F1EA;font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;border-radius:4px;">Field</div>
             <div style="margin-top:22px;">
-              <div style="font-size:22px;padding:14px 0;border-bottom:1px solid rgba(35,38,31,0.14);">50 teams · 10 pools of 5</div>
+              <div style="font-size:22px;padding:14px 0;border-bottom:1px solid rgba(35,38,31,0.14);">50 teams · 10 pools of five</div>
               <div style="font-size:22px;padding:14px 0;border-bottom:1px solid rgba(35,38,31,0.14);">Teams of 5 (3 on court + 2 subs)</div>
               <div style="font-size:22px;padding:14px 0;border-bottom:1px solid rgba(35,38,31,0.14);">Open division · ages 18+</div>
               <div style="font-size:22px;padding:14px 0;border-bottom:1px solid rgba(35,38,31,0.14);">4 guaranteed games Day 1 · bracket Day 2</div>
             </div>
           </div>
+          <div style="position:absolute;top:660px;left:80px;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#927A43;">Source · FIBA 3×3 official rules · tournament plan</div>
           <div style="position:absolute;top:250px;left:1340px;width:440px;height:440px;border-radius:50%;background:#AEAEA6;display:flex;align-items:center;justify-content:center;">
             <div style="width:330px;height:330px;border-radius:50%;background:#1179B5;display:flex;align-items:center;justify-content:center;">
               <div style="width:215px;height:215px;border-radius:50%;background:#033B7A;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#F4F1EA;">
@@ -220,33 +201,33 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
               </div>
             </div>
           </div>
-          <div style="position:absolute;top:712px;left:1340px;width:440px;display:flex;justify-content:space-between;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#3a3c33;"><span>Pool Play</span><span>3 Brackets</span><span>Finals</span></div>
+          <div style="position:absolute;top:712px;left:1310px;width:500px;display:flex;justify-content:space-between;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#3a3c33;"><span>Pool Play</span><span>3 Brackets</span><span>Finals</span></div>
           <div style="position:absolute;left:74px;bottom:-18px;font-family:'Anton',sans-serif;font-size:130px;color:#AEAEA6;letter-spacing:-1px;text-transform:uppercase;opacity:0.42;">The Event</div>
           <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
         </section>
       </div>
     </div>
 
-    <!-- Slide 06: Section divider – Where It Goes -->
+    <!-- 06 · Section · Where It Goes -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#23261F;color:#F4F1EA;font-family:'Archivo',sans-serif;overflow:hidden;">
-          <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,59,122,0.55) 0%,rgba(35,38,31,0.6) 45%,rgba(35,38,31,0.9) 100%);"></div>
-          <div style="position:absolute;top:44px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;border-bottom:1px solid rgba(244,241,234,0.3);padding-bottom:14px;">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,59,122,0.55) 0%,rgba(35,38,31,0.6) 45%,rgba(35,38,31,0.9) 100%);pointer-events:none;"></div>
+          <div style="position:absolute;top:44px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;border-bottom:1px solid rgba(244,241,234,0.3);padding-bottom:14px;pointer-events:none;">
             <span>Pervis Polk Memorial 3×3</span>
             <span style="color:#AEAEA6;">The Cup</span>
             <span style="color:#AEAEA6;">2026 Sponsorship Prospectus</span>
             <span>06</span>
           </div>
-          <div style="position:absolute;top:150px;left:80px;font-size:15px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1179B5;">Section 02</div>
-          <div style="position:absolute;top:50%;left:80px;transform:translateY(-50%);font-family:'Anton',sans-serif;font-size:200px;line-height:0.82;text-transform:uppercase;text-shadow:0 6px 40px rgba(0,0,0,0.45);">Where<br>It Goes</div>
-          <div style="position:absolute;bottom:108px;left:80px;width:1080px;font-size:26px;font-weight:500;line-height:1.4;">Three local high schools. $1,000 each. Starting with the Mustangs of John Muir.</div>
-          <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
+          <div style="position:absolute;top:150px;left:80px;font-size:15px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1179B5;pointer-events:none;">Section 02</div>
+          <div style="position:absolute;top:50%;left:80px;transform:translateY(-50%);font-family:'Anton',sans-serif;font-size:200px;line-height:0.82;text-transform:uppercase;pointer-events:none;text-shadow:0 6px 40px rgba(0,0,0,0.45);">Where<br>It Goes</div>
+          <div style="position:absolute;bottom:108px;left:80px;width:1080px;font-size:26px;font-weight:500;line-height:1.4;pointer-events:none;">Three local high schools. $1,000 each. Starting with the Mustangs of John Muir.</div>
+          <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;pointer-events:none;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
         </section>
       </div>
     </div>
 
-    <!-- Slide 07: Why Partner -->
+    <!-- 07 · Why Partner -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#F4F1EA;color:#23261F;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -258,7 +239,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
           </div>
           <div style="position:absolute;top:138px;left:80px;font-family:'Anton',sans-serif;font-size:84px;text-transform:uppercase;">Why Partner With Us</div>
           <div style="position:absolute;top:300px;left:80px;right:80px;display:grid;grid-template-columns:1fr 1fr;gap:38px 80px;">
-            <div style="display:flex;gap:24px;align-items:flex-start;"><div style="font-family:'Anton',sans-serif;font-size:56px;color:#1179B5;line-height:0.9;width:74px;flex-shrink:0;">01</div><div><div style="font-size:25px;font-weight:700;margin-bottom:6px;">Real local reach</div><div style="font-size:20px;line-height:1.45;color:#3a3c33;">Hundreds of players, families, and fans spend a full day with your brand front and center.</div></div></div>
+            <div style="display:flex;gap:24px;align-items:flex-start;"><div style="font-family:'Anton',sans-serif;font-size:56px;color:#1179B5;line-height:0.9;width:74px;flex-shrink:0;">01</div><div><div style="font-size:25px;font-weight:700;margin-bottom:6px;">Real local reach</div><div style="font-size:20px;line-height:1.45;color:#3a3c33;">Hundreds of players, families, and fans spend two full days with your brand front and center.</div></div></div>
             <div style="display:flex;gap:24px;align-items:flex-start;"><div style="font-family:'Anton',sans-serif;font-size:56px;color:#1179B5;line-height:0.9;width:74px;flex-shrink:0;">02</div><div><div style="font-size:25px;font-weight:700;margin-bottom:6px;">Community goodwill</div><div style="font-size:20px;line-height:1.45;color:#3a3c33;">Align your name with a beloved mentor's legacy and direct support for local schools.</div></div></div>
             <div style="display:flex;gap:24px;align-items:flex-start;"><div style="font-family:'Anton',sans-serif;font-size:56px;color:#1179B5;line-height:0.9;width:74px;flex-shrink:0;">03</div><div><div style="font-size:25px;font-weight:700;margin-bottom:6px;">Tax-deductible giving</div><div style="font-size:20px;line-height:1.45;color:#3a3c33;">Support flows through Project Passion, a Pasadena nonprofit.*</div></div></div>
             <div style="display:flex;gap:24px;align-items:flex-start;"><div style="font-family:'Anton',sans-serif;font-size:56px;color:#927A43;line-height:0.9;width:74px;flex-shrink:0;">04</div><div><div style="font-size:25px;font-weight:700;margin-bottom:6px;">Ground-floor status</div><div style="font-size:20px;line-height:1.45;color:#3a3c33;">Be a founding sponsor of an event built to return bigger every year.</div></div></div>
@@ -269,7 +250,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
       </div>
     </div>
 
-    <!-- Slide 08: Sponsorship Tiers -->
+    <!-- 08 · Sponsorship Tiers -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#F4F1EA;color:#23261F;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -282,9 +263,9 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
           <div style="position:absolute;top:132px;left:80px;font-family:'Anton',sans-serif;font-size:84px;text-transform:uppercase;">Sponsorship Tiers</div>
           <div style="position:absolute;top:288px;left:80px;right:80px;">
             <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:0 0 12px;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#927A43;border-bottom:2px solid #23261F;"><span>Tier</span><span>Price</span><span>What you get</span></div>
-            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Title</span><span style="display:inline-block;background:#033B7A;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$1,000</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Co-named "presented by you" · logo on all 4 courts · PA all day · 4 shirts · booth</span></div>
-            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Court</span><span style="display:inline-block;background:#1179B5;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$500</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Your name on one of 4 courts · PA shout-outs · 2 shirts</span></div>
-            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Trophy</span><span style="display:inline-block;background:#927A43;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$350</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Present the trophy &amp; checks on the mic · logo on bracket board · social mention</span></div>
+            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Title</span><span style="display:inline-block;background:#033B7A;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$1,000</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Co-named "presented by you" · logo on all 4 courts both days · PA all day · 4 shirts · booth</span></div>
+            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Court</span><span style="display:inline-block;background:#1179B5;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$500</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Your name on one of 4 courts across both days · PA shout-outs · 2 shirts</span></div>
+            <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Trophy</span><span style="display:inline-block;background:#927A43;color:#fff;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$350</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Present the trophy &amp; checks on the mic at Day 2 awards · logo on bracket board · social mention</span></div>
             <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(35,38,31,0.14);"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">Community</span><span style="display:inline-block;background:#AEAEA6;color:#23261F;font-weight:700;font-size:22px;padding:8px 0;text-align:center;border-radius:6px;">$150</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Name on banner + program · social thank-you · for local businesses &amp; families</span></div>
             <div style="display:grid;grid-template-columns:260px 150px 1fr;gap:24px;align-items:center;padding:22px 0;"><span style="font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;">In-Kind</span><span style="display:inline-block;background:#23261F;color:#fff;font-weight:700;font-size:18px;padding:11px 0;text-align:center;border-radius:6px;">Goods</span><span style="font-size:19px;line-height:1.4;color:#3a3c33;">Water, food, ice, medals, printing, DJ/PA, or photography · credited by value</span></div>
           </div>
@@ -293,7 +274,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
       </div>
     </div>
 
-    <!-- Slide 09: By the Numbers -->
+    <!-- 09 · By the Numbers -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#23261F;color:#F4F1EA;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -310,22 +291,20 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
             <div style="border-top:3px solid #1179B5;padding-top:18px;"><div style="font-family:'Anton',sans-serif;font-size:64px;line-height:0.95;">$22,500</div><div style="font-size:15px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#AEAEA6;margin-top:8px;">Total raised</div></div>
             <div style="border-top:3px solid #927A43;padding-top:18px;"><div style="font-family:'Anton',sans-serif;font-size:64px;line-height:0.95;">$3,000</div><div style="font-size:15px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#AEAEA6;margin-top:8px;">To schools</div></div>
           </div>
-          <div style="position:absolute;top:540px;left:80px;right:80px;display:grid;grid-template-columns:1fr 1fr;gap:0 60px;">
-            <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1179B5;padding-bottom:10px;border-bottom:1px solid rgba(244,241,234,0.28);">Saturday Aug 15 · Pool Play</div>
-            <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#927A43;padding-bottom:10px;border-bottom:1px solid rgba(244,241,234,0.28);">Sunday Aug 16 · Bracket Day</div>
-          </div>
-          <div style="position:absolute;top:580px;left:80px;right:80px;display:grid;grid-template-columns:1fr 1fr;gap:0 60px;">
+          <div style="position:absolute;top:530px;left:80px;right:80px;display:grid;grid-template-columns:1fr 1fr;gap:0 80px;">
             <div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#1179B5;width:110px;">08:00</span><span style="font-size:19px;">Team check-in opens</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#1179B5;width:110px;">08:30</span><span style="font-size:19px;">Opening + Pervis tribute</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#1179B5;width:110px;">08:45</span><span style="font-size:19px;">Pool play · 4 courts · 10 pools</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#1179B5;width:110px;">17:00</span><span style="font-size:19px;">Pool play complete · seeding posted</span></div>
+              <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1179B5;padding-bottom:12px;border-bottom:1px solid rgba(244,241,234,0.2);">Day 1 · Sat Aug 15 — Pool Play</div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#1179B5;width:120px;flex-shrink:0;">08:00</span><span style="font-size:19px;">Check-in opens</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#1179B5;width:120px;flex-shrink:0;">08:30</span><span style="font-size:19px;">Opening + Pervis tribute</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#1179B5;width:120px;flex-shrink:0;">08:45</span><span style="font-size:19px;">Pool play · all 4 courts</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#1179B5;width:120px;flex-shrink:0;">17:00</span><span style="font-size:19px;">Seedings posted · Day 2 brackets live</span></div>
             </div>
             <div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#927A43;width:110px;">09:00</span><span style="font-size:19px;">All 3 brackets tip off</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#927A43;width:110px;">13:30</span><span style="font-size:19px;">Championship semifinal</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#927A43;width:110px;">14:30</span><span style="font-size:19px;">Championship final</span></div>
-              <div style="display:flex;gap:24px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:26px;color:#927A43;width:110px;">15:00</span><span style="font-size:19px;">Awards + $3,000 to schools</span></div>
+              <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#927A43;padding-bottom:12px;border-bottom:1px solid rgba(244,241,234,0.2);">Day 2 · Sun Aug 16 — Brackets</div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#927A43;width:120px;flex-shrink:0;">09:00</span><span style="font-size:19px;">All 3 brackets tip · 4 courts</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#927A43;width:120px;flex-shrink:0;">13:30</span><span style="font-size:19px;">Championship semifinals</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(244,241,234,0.12);"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#927A43;width:120px;flex-shrink:0;">14:30</span><span style="font-size:19px;">Championship final · feature court</span></div>
+              <div style="display:flex;gap:28px;align-items:baseline;padding:14px 0;"><span style="font-family:'Anton',sans-serif;font-size:28px;color:#927A43;width:120px;flex-shrink:0;">15:00</span><span style="font-size:19px;">Awards + $3,000 to schools</span></div>
             </div>
           </div>
           <div style="position:absolute;bottom:42px;right:80px;font-size:15px;letter-spacing:2px;text-transform:uppercase;"><span style="font-weight:800;">Pervis Polk</span> <span style="font-weight:300;">Cup</span></div>
@@ -333,7 +312,7 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
       </div>
     </div>
 
-    <!-- Slide 10: Partner With Us -->
+    <!-- 10 · Partner With Us -->
     <div class="slide">
       <div class="slide-scaler">
         <section style="position:relative;width:100%;height:100%;background:#23261F;color:#F4F1EA;font-family:'Archivo',sans-serif;overflow:hidden;">
@@ -343,11 +322,10 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
             <span style="color:#AEAEA6;">2026 Sponsorship Prospectus</span>
             <span>10</span>
           </div>
-          <div class="img-placeholder" style="position:absolute;right:80px;top:150px;width:520px;height:800px;">Court photo</div>
           <div style="position:absolute;top:190px;left:80px;width:1080px;">
             <div style="font-size:15px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1179B5;margin-bottom:24px;">Partner With Us</div>
             <div style="font-family:'Anton',sans-serif;font-size:96px;line-height:0.92;text-transform:uppercase;">Honor Pervis.<br><span style="color:#1179B5;">Fund the future.</span><br>Partner with us.</div>
-            <p style="margin:36px 0 0;font-size:23px;line-height:1.55;max-width:880px;color:#d9d8cf;">Help us honor Pervis, give players a day they'll remember, and put real money into local schools. Pick a tier, donate in-kind, or build a custom package with us.</p>
+            <p style="margin:36px 0 0;font-size:23px;line-height:1.55;max-width:880px;color:#d9d8cf;">Help us honor Pervis, give 50 teams a weekend they'll remember, and put real money into local schools. Pick a tier, donate in-kind, or build a custom package with us.</p>
             <div style="margin-top:36px;display:inline-block;background:#033B7A;color:#F4F1EA;font-size:20px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:20px 44px;border-radius:8px;">Become a Sponsor →</div>
             <div style="margin-top:48px;display:grid;grid-template-columns:1fr 1fr;gap:18px 60px;max-width:880px;">
               <div><div style="font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#927A43;margin-bottom:4px;">Email</div><div style="font-size:21px;">pp3x3cup@gmail.com</div></div>
@@ -361,66 +339,64 @@ body{background:#0d0e0b;font-family:'Archivo',sans-serif;overflow:hidden;}
     </div>
 
   </div><!-- /slide-track -->
-</div>
+</div><!-- /viewer -->
 
 <!-- Nav -->
 <div class="nav" id="nav">
-  <button onclick="go(-1)" title="Previous (←)">&#8592;</button>
+  <button onclick="go(-1)" title="Previous">&#8592;</button>
   <div class="dots" id="dots"></div>
   <span class="counter" id="counter">1 / 10</span>
-  <button onclick="go(1)" title="Next (→)">&#8594;</button>
+  <button onclick="go(1)" title="Next">&#8594;</button>
 </div>
-
-<button class="fs-btn" onclick="toggleFS()">⛶ Fullscreen</button>
 
 <script>
 const slides = document.querySelectorAll('.slide');
-const dotsEl = document.getElementById('dots');
-const counter = document.getElementById('counter');
+const scalers = document.querySelectorAll('.slide-scaler');
 let cur = 0;
 
+function scale() {
+  const vw = window.innerWidth, vh = window.innerHeight;
+  const s = Math.min(vw / 1920, vh / 1080);
+  scalers.forEach(el => {
+    el.style.transform = `scale(${s}) translate(-50%, -50%)`;
+  });
+}
+scale();
+window.addEventListener('resize', scale);
+
 // Build dots
-slides.forEach((_,i)=>{
+const dotsEl = document.getElementById('dots');
+slides.forEach((_, i) => {
   const d = document.createElement('span');
-  d.className = 'dot' + (i===0?' active':'');
-  d.onclick = ()=>goTo(i);
+  d.className = 'dot' + (i === 0 ? ' active' : '');
+  d.onclick = () => go(i - cur);
   dotsEl.appendChild(d);
 });
 
-function scale(){
-  const vw = window.innerWidth, vh = window.innerHeight;
-  const s = Math.min(vw/1920, vh/1080);
-  const scalers = document.querySelectorAll('.slide-scaler');
-  scalers.forEach(el=>{
-    el.style.transform = `scale(${s}) translate(-50%,-50%)`;
-    el.style.left = '50%';
-    el.style.top = '50%';
-  });
-}
-
-function goTo(n){
+function go(dir) {
   slides[cur].classList.remove('active');
   dotsEl.children[cur].classList.remove('active');
-  cur = (n + slides.length) % slides.length;
+  cur = Math.max(0, Math.min(slides.length - 1, cur + dir));
   slides[cur].classList.add('active');
   dotsEl.children[cur].classList.add('active');
-  counter.textContent = (cur+1) + ' / ' + slides.length;
+  document.getElementById('counter').textContent = (cur + 1) + ' / ' + slides.length;
 }
 
-function go(d){ goTo(cur+d); }
-
-document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowRight'||e.key==='ArrowDown') go(1);
-  if(e.key==='ArrowLeft'||e.key==='ArrowUp') go(-1);
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); go(1); }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); go(-1); }
+  if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
 });
 
-function toggleFS(){
-  if(!document.fullscreenElement) document.documentElement.requestFullscreen();
-  else document.exitFullscreen();
+// Hide nav on mouse idle
+let hideTimer;
+function showNav() {
+  document.getElementById('nav').style.opacity = '1';
+  clearTimeout(hideTimer);
+  hideTimer = setTimeout(() => { document.getElementById('nav').style.opacity = '0'; }, 2500);
 }
-
-window.addEventListener('resize',scale);
-scale();
+document.addEventListener('mousemove', showNav);
+showNav();
 </script>
 </body>
 </html>
