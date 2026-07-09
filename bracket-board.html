@@ -6,7 +6,7 @@
 <title>Tournament Bracket · Pervis Polk 3×3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;}
 html,body{margin:0;padding:0;background:#F0EDE6;font-family:'Archivo',sans-serif;color:#23261F;}
@@ -17,16 +17,16 @@ html,body{margin:0;padding:0;background:#F0EDE6;font-family:'Archivo',sans-serif
   body{background:#F0EDE6;}
 }
 .page{max-width:1280px;margin:0 auto;padding:24px;}
-.doc-header{background:#23261F;color:#F4F1EA;display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-radius:8px 8px 0 0;}
-.doc-header h1{font-family:'Anton',sans-serif;font-size:34px;text-transform:uppercase;margin:0;line-height:1;}
-.doc-header .event-name{font-family:'Anton',sans-serif;font-size:34px;color:#1179B5;text-transform:uppercase;}
+.doc-header{background:#23261F;color:#F4F1EA;display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-radius:24px 8px 0 0;}
+.doc-header h1{font-family:'Archivo Black',sans-serif;font-size:34px;text-transform:uppercase;margin:0;line-height:1;}
+.doc-header .event-name{font-family:'Archivo Black',sans-serif;font-size:34px;color:#1179B5;text-transform:uppercase;}
 .doc-subheader{background:#927A43;color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 28px;}
 .doc-body{background:#F0EDE6;padding:22px 24px 28px;border-radius:0 0 8px 8px;}
 .layout{display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:start;}
 /* Pool play */
 .pools{display:flex;flex-direction:column;gap:14px;}
-.pool-block{border-radius:6px;overflow:hidden;border:1px solid rgba(35,38,31,0.18);}
-.pool-header{font-family:'Anton',sans-serif;font-size:15px;text-transform:uppercase;color:#F4F1EA;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;}
+.pool-block{border-radius:12px;overflow:hidden;border:1px solid rgba(35,38,31,0.18);}
+.pool-header{font-family:'Archivo Black',sans-serif;font-size:15px;text-transform:uppercase;color:#F4F1EA;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;}
 .pool-header .wl{font-size:10px;font-weight:700;letter-spacing:1px;opacity:0.7;}
 .pool-a .pool-header{background:#927A43;}
 .pool-b .pool-header{background:#1179B5;}
@@ -40,18 +40,18 @@ html,body{margin:0;padding:0;background:#F0EDE6;font-family:'Archivo',sans-serif
 .pool-row .stat{padding:8px 4px;border-left:1px solid rgba(35,38,31,0.08);text-align:center;color:#aaa;}
 /* Bracket area */
 .bracket-area{display:flex;flex-direction:column;gap:20px;}
-.bracket-section-title{font-family:'Anton',sans-serif;font-size:18px;text-transform:uppercase;margin:0 0 4px;}
+.bracket-section-title{font-family:'Archivo Black',sans-serif;font-size:18px;text-transform:uppercase;margin:0 0 4px;}
 .bracket-subtitle{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1179B5;margin-bottom:10px;}
 .bracket-grid{display:grid;grid-template-columns:200px 48px 180px 48px 200px;align-items:center;gap:0;}
 .bracket-col{display:flex;flex-direction:column;gap:0;}
 .col-label{font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#6b6d62;margin-bottom:6px;height:14px;}
-.matchup{background:#fff;border:1px solid rgba(35,38,31,0.2);border-radius:4px;padding:7px 10px;font-size:12px;font-weight:500;color:#3a3c33;margin-bottom:4px;min-height:30px;}
+.matchup{background:#fff;border:1px solid rgba(35,38,31,0.2);border-radius:999px;padding:7px 10px;font-size:12px;font-weight:500;color:#3a3c33;margin-bottom:4px;min-height:30px;}
 .matchup.blank{background:#fff;border:1px dashed rgba(35,38,31,0.25);color:#bbb;}
-.matchup.champion{background:#1179B5;color:#fff;font-family:'Anton',sans-serif;font-size:15px;text-align:center;padding:12px 10px;border:none;}
-.matchup.consolation-win{background:#23261F;color:#F4F1EA;font-family:'Anton',sans-serif;font-size:13px;text-align:center;padding:10px;border:none;}
+.matchup.champion{background:#1179B5;color:#fff;font-family:'Archivo Black',sans-serif;font-size:15px;text-align:center;padding:12px 10px;border:none;}
+.matchup.consolation-win{background:#23261F;color:#F4F1EA;font-family:'Archivo Black',sans-serif;font-size:13px;text-align:center;padding:10px;border:none;}
 .connector-col{display:flex;flex-direction:column;justify-content:space-around;align-items:center;padding-top:20px;}
 .conn-line{width:48px;height:2px;background:rgba(35,38,31,0.2);}
-.format-box{background:#23261F;color:#F4F1EA;border-radius:6px;padding:14px 16px;font-size:12px;line-height:1.7;margin-top:8px;}
+.format-box{background:#23261F;color:#F4F1EA;border-radius:12px;padding:14px 16px;font-size:12px;line-height:1.7;margin-top:8px;}
 .format-box strong{display:block;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#927A43;margin-bottom:6px;}
 .footer{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:14px;border-top:3px solid #23261F;font-size:12px;color:#6b6d62;letter-spacing:0.5px;}
 .print-btn{background:#1179B5;color:#fff;border:none;font-family:'Archivo',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:9px 18px;border-radius:5px;cursor:pointer;margin-bottom:14px;}
@@ -80,7 +80,7 @@ html,body{margin:0;padding:0;background:#F0EDE6;font-family:'Archivo',sans-serif
 
       <!-- LEFT: Pool Play -->
       <div>
-        <div style="font-family:'Anton',sans-serif;font-size:17px;text-transform:uppercase;margin-bottom:12px;">Pool Play <span style="font-size:12px;font-weight:400;font-family:'Archivo',sans-serif;color:#6b6d62;">(Round Robin)</span></div>
+        <div style="font-family:'Archivo Black',sans-serif;font-size:17px;text-transform:uppercase;margin-bottom:12px;">Pool Play <span style="font-size:12px;font-weight:400;font-family:'Archivo',sans-serif;color:#6b6d62;">(Round Robin)</span></div>
         <div class="pools">
 
           <div class="pool-block pool-a">
