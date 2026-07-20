@@ -5,900 +5,720 @@
    "slot": 0,
    "time": "8:30 AM",
    "court": 1,
-   "stage": "Pool A \u00b7 RR R1",
-   "teamA": "A2",
-   "teamB": "A5"
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K1",
+   "teamB": "K2"
   },
   {
    "day": "Sat Aug 15",
    "slot": 0,
    "time": "8:30 AM",
    "court": 2,
-   "stage": "Pool A \u00b7 RR R1",
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L1",
+   "teamB": "L2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 1,
+   "time": "8:42 AM",
+   "court": 1,
+   "stage": "Pool A \u00b7 Round-Robin",
+   "teamA": "A1",
+   "teamB": "A2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 1,
+   "time": "8:42 AM",
+   "court": 2,
+   "stage": "Pool F \u00b7 Round-Robin",
+   "teamA": "F1",
+   "teamB": "F2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 2,
+   "time": "8:54 AM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
+   "teamA": "B1",
+   "teamB": "B2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 2,
+   "time": "8:54 AM",
+   "court": 2,
+   "stage": "Pool G \u00b7 Round-Robin",
+   "teamA": "G1",
+   "teamB": "G2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 3,
+   "time": "9:06 AM",
+   "court": 1,
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C1",
+   "teamB": "C2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 3,
+   "time": "9:06 AM",
+   "court": 2,
+   "stage": "Pool H \u00b7 Round-Robin",
+   "teamA": "H1",
+   "teamB": "H2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 4,
+   "time": "9:18 AM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K1",
+   "teamB": "K3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 4,
+   "time": "9:18 AM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L1",
+   "teamB": "L3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 5,
+   "time": "9:30 AM",
+   "court": 1,
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D1",
+   "teamB": "D2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 5,
+   "time": "9:30 AM",
+   "court": 2,
+   "stage": "Pool I \u00b7 Round-Robin",
+   "teamA": "I1",
+   "teamB": "I2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 6,
+   "time": "9:42 AM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E1",
+   "teamB": "E2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 6,
+   "time": "9:42 AM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
+   "teamA": "J1",
+   "teamB": "J2"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 7,
+   "time": "9:54 AM",
+   "court": 1,
+   "stage": "Pool A \u00b7 Round-Robin",
    "teamA": "A3",
    "teamB": "A4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 0,
-   "time": "8:30 AM",
-   "court": 3,
-   "stage": "Pool B \u00b7 RR R1",
-   "teamA": "B2",
-   "teamB": "B5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 0,
-   "time": "8:30 AM",
-   "court": 4,
-   "stage": "Pool B \u00b7 RR R1",
-   "teamA": "B3",
-   "teamB": "B4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 1,
-   "time": "8:50 AM",
-   "court": 1,
-   "stage": "Pool C \u00b7 RR R1",
-   "teamA": "C2",
-   "teamB": "C5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 1,
-   "time": "8:50 AM",
+   "slot": 7,
+   "time": "9:54 AM",
    "court": 2,
-   "stage": "Pool C \u00b7 RR R1",
-   "teamA": "C3",
-   "teamB": "C4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 1,
-   "time": "8:50 AM",
-   "court": 3,
-   "stage": "Pool D \u00b7 RR R1",
-   "teamA": "D2",
-   "teamB": "D5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 1,
-   "time": "8:50 AM",
-   "court": 4,
-   "stage": "Pool D \u00b7 RR R1",
-   "teamA": "D3",
-   "teamB": "D4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 2,
-   "time": "9:10 AM",
-   "court": 1,
-   "stage": "Pool E \u00b7 RR R1",
-   "teamA": "E2",
-   "teamB": "E5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 2,
-   "time": "9:10 AM",
-   "court": 2,
-   "stage": "Pool E \u00b7 RR R1",
-   "teamA": "E3",
-   "teamB": "E4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 2,
-   "time": "9:10 AM",
-   "court": 3,
-   "stage": "Pool F \u00b7 RR R1",
-   "teamA": "F2",
-   "teamB": "F5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 2,
-   "time": "9:10 AM",
-   "court": 4,
-   "stage": "Pool F \u00b7 RR R1",
+   "stage": "Pool F \u00b7 Round-Robin",
    "teamA": "F3",
    "teamB": "F4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 3,
-   "time": "9:30 AM",
+   "slot": 8,
+   "time": "10:06 AM",
    "court": 1,
-   "stage": "Pool G \u00b7 RR R1",
-   "teamA": "G2",
-   "teamB": "G5"
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K1",
+   "teamB": "K4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 3,
-   "time": "9:30 AM",
+   "slot": 8,
+   "time": "10:06 AM",
    "court": 2,
-   "stage": "Pool G \u00b7 RR R1",
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L1",
+   "teamB": "L4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 9,
+   "time": "10:18 AM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
+   "teamA": "B3",
+   "teamB": "B4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 9,
+   "time": "10:18 AM",
+   "court": 2,
+   "stage": "Pool G \u00b7 Round-Robin",
    "teamA": "G3",
    "teamB": "G4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 3,
-   "time": "9:30 AM",
-   "court": 3,
-   "stage": "Pool H \u00b7 RR R1",
-   "teamA": "H2",
-   "teamB": "H5"
+   "slot": 10,
+   "time": "10:30 AM",
+   "court": 1,
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C3",
+   "teamB": "C4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 3,
-   "time": "9:30 AM",
-   "court": 4,
-   "stage": "Pool H \u00b7 RR R1",
+   "slot": 10,
+   "time": "10:30 AM",
+   "court": 2,
+   "stage": "Pool H \u00b7 Round-Robin",
    "teamA": "H3",
    "teamB": "H4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 4,
-   "time": "9:50 AM",
-   "court": 1,
-   "stage": "Pool I \u00b7 RR R1",
-   "teamA": "I2",
-   "teamB": "I5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 4,
-   "time": "9:50 AM",
-   "court": 2,
-   "stage": "Pool I \u00b7 RR R1",
-   "teamA": "I3",
-   "teamB": "I4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 4,
-   "time": "9:50 AM",
-   "court": 3,
-   "stage": "Pool J \u00b7 RR R1",
-   "teamA": "J2",
-   "teamB": "J5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 4,
-   "time": "9:50 AM",
-   "court": 4,
-   "stage": "Pool J \u00b7 RR R1",
-   "teamA": "J3",
-   "teamB": "J4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 5,
-   "time": "10:10 AM",
-   "court": 1,
-   "stage": "Pool A \u00b7 RR R2",
-   "teamA": "A1",
-   "teamB": "A5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 5,
-   "time": "10:10 AM",
-   "court": 2,
-   "stage": "Pool A \u00b7 RR R2",
-   "teamA": "A2",
-   "teamB": "A3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 5,
-   "time": "10:10 AM",
-   "court": 3,
-   "stage": "Pool B \u00b7 RR R2",
-   "teamA": "B1",
-   "teamB": "B5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 5,
-   "time": "10:10 AM",
-   "court": 4,
-   "stage": "Pool B \u00b7 RR R2",
-   "teamA": "B2",
-   "teamB": "B3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 6,
-   "time": "10:30 AM",
-   "court": 1,
-   "stage": "Pool C \u00b7 RR R2",
-   "teamA": "C1",
-   "teamB": "C5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 6,
-   "time": "10:30 AM",
-   "court": 2,
-   "stage": "Pool C \u00b7 RR R2",
-   "teamA": "C2",
-   "teamB": "C3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 6,
-   "time": "10:30 AM",
-   "court": 3,
-   "stage": "Pool D \u00b7 RR R2",
-   "teamA": "D1",
-   "teamB": "D5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 6,
-   "time": "10:30 AM",
-   "court": 4,
-   "stage": "Pool D \u00b7 RR R2",
-   "teamA": "D2",
-   "teamB": "D3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 7,
-   "time": "10:50 AM",
-   "court": 1,
-   "stage": "Pool E \u00b7 RR R2",
-   "teamA": "E1",
-   "teamB": "E5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 7,
-   "time": "10:50 AM",
-   "court": 2,
-   "stage": "Pool E \u00b7 RR R2",
-   "teamA": "E2",
-   "teamB": "E3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 7,
-   "time": "10:50 AM",
-   "court": 3,
-   "stage": "Pool F \u00b7 RR R2",
-   "teamA": "F1",
-   "teamB": "F5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 7,
-   "time": "10:50 AM",
-   "court": 4,
-   "stage": "Pool F \u00b7 RR R2",
-   "teamA": "F2",
-   "teamB": "F3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 8,
-   "time": "11:10 AM",
-   "court": 1,
-   "stage": "Pool G \u00b7 RR R2",
-   "teamA": "G1",
-   "teamB": "G5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 8,
-   "time": "11:10 AM",
-   "court": 2,
-   "stage": "Pool G \u00b7 RR R2",
-   "teamA": "G2",
-   "teamB": "G3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 8,
-   "time": "11:10 AM",
-   "court": 3,
-   "stage": "Pool H \u00b7 RR R2",
-   "teamA": "H1",
-   "teamB": "H5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 8,
-   "time": "11:10 AM",
-   "court": 4,
-   "stage": "Pool H \u00b7 RR R2",
-   "teamA": "H2",
-   "teamB": "H3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 9,
-   "time": "11:30 AM",
-   "court": 1,
-   "stage": "Pool I \u00b7 RR R2",
-   "teamA": "I1",
-   "teamB": "I5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 9,
-   "time": "11:30 AM",
-   "court": 2,
-   "stage": "Pool I \u00b7 RR R2",
-   "teamA": "I2",
-   "teamB": "I3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 9,
-   "time": "11:30 AM",
-   "court": 3,
-   "stage": "Pool J \u00b7 RR R2",
-   "teamA": "J1",
-   "teamB": "J5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 9,
-   "time": "11:30 AM",
-   "court": 4,
-   "stage": "Pool J \u00b7 RR R2",
-   "teamA": "J2",
-   "teamB": "J3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 10,
-   "time": "11:50 AM",
-   "court": 1,
-   "stage": "Pool A \u00b7 RR R3",
-   "teamA": "A1",
-   "teamB": "A4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 10,
-   "time": "11:50 AM",
-   "court": 2,
-   "stage": "Pool A \u00b7 RR R3",
-   "teamA": "A5",
-   "teamB": "A3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 10,
-   "time": "11:50 AM",
-   "court": 3,
-   "stage": "Pool B \u00b7 RR R3",
-   "teamA": "B1",
-   "teamB": "B4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 10,
-   "time": "11:50 AM",
-   "court": 4,
-   "stage": "Pool B \u00b7 RR R3",
-   "teamA": "B5",
-   "teamB": "B3"
-  },
-  {
-   "day": "Sat Aug 15",
    "slot": 11,
-   "time": "12:10 PM",
+   "time": "10:42 AM",
    "court": 1,
-   "stage": "Pool C \u00b7 RR R3",
-   "teamA": "C1",
-   "teamB": "C4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 11,
-   "time": "12:10 PM",
-   "court": 2,
-   "stage": "Pool C \u00b7 RR R3",
-   "teamA": "C5",
-   "teamB": "C3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 11,
-   "time": "12:10 PM",
-   "court": 3,
-   "stage": "Pool D \u00b7 RR R3",
-   "teamA": "D1",
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D3",
    "teamB": "D4"
   },
   {
    "day": "Sat Aug 15",
    "slot": 11,
-   "time": "12:10 PM",
-   "court": 4,
-   "stage": "Pool D \u00b7 RR R3",
-   "teamA": "D5",
-   "teamB": "D3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 12,
-   "time": "12:30 PM",
-   "court": 1,
-   "stage": "Pool E \u00b7 RR R3",
-   "teamA": "E1",
-   "teamB": "E4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 12,
-   "time": "12:30 PM",
+   "time": "10:42 AM",
    "court": 2,
-   "stage": "Pool E \u00b7 RR R3",
-   "teamA": "E5",
-   "teamB": "E3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 12,
-   "time": "12:30 PM",
-   "court": 3,
-   "stage": "Pool F \u00b7 RR R3",
-   "teamA": "F1",
-   "teamB": "F4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 12,
-   "time": "12:30 PM",
-   "court": 4,
-   "stage": "Pool F \u00b7 RR R3",
-   "teamA": "F5",
-   "teamB": "F3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 13,
-   "time": "12:50 PM",
-   "court": 1,
-   "stage": "Pool G \u00b7 RR R3",
-   "teamA": "G1",
-   "teamB": "G4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 13,
-   "time": "12:50 PM",
-   "court": 2,
-   "stage": "Pool G \u00b7 RR R3",
-   "teamA": "G5",
-   "teamB": "G3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 13,
-   "time": "12:50 PM",
-   "court": 3,
-   "stage": "Pool H \u00b7 RR R3",
-   "teamA": "H1",
-   "teamB": "H4"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 13,
-   "time": "12:50 PM",
-   "court": 4,
-   "stage": "Pool H \u00b7 RR R3",
-   "teamA": "H5",
-   "teamB": "H3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 14,
-   "time": "1:10 PM",
-   "court": 1,
-   "stage": "Pool I \u00b7 RR R3",
-   "teamA": "I1",
+   "stage": "Pool I \u00b7 Round-Robin",
+   "teamA": "I3",
    "teamB": "I4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 14,
-   "time": "1:10 PM",
-   "court": 2,
-   "stage": "Pool I \u00b7 RR R3",
-   "teamA": "I5",
-   "teamB": "I3"
+   "slot": 12,
+   "time": "10:54 AM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K1",
+   "teamB": "K5"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 14,
-   "time": "1:10 PM",
-   "court": 3,
-   "stage": "Pool J \u00b7 RR R3",
-   "teamA": "J1",
+   "slot": 12,
+   "time": "10:54 AM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L1",
+   "teamB": "L5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 13,
+   "time": "11:06 AM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E3",
+   "teamB": "E4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 13,
+   "time": "11:06 AM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
+   "teamA": "J3",
    "teamB": "J4"
   },
   {
    "day": "Sat Aug 15",
    "slot": 14,
-   "time": "1:10 PM",
-   "court": 4,
-   "stage": "Pool J \u00b7 RR R3",
-   "teamA": "J5",
-   "teamB": "J3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 15,
-   "time": "1:30 PM",
+   "time": "11:18 AM",
    "court": 1,
-   "stage": "Pool A \u00b7 RR R4",
+   "stage": "Pool A \u00b7 Round-Robin",
    "teamA": "A1",
    "teamB": "A3"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 15,
-   "time": "1:30 PM",
+   "slot": 14,
+   "time": "11:18 AM",
    "court": 2,
-   "stage": "Pool A \u00b7 RR R4",
-   "teamA": "A4",
-   "teamB": "A2"
+   "stage": "Pool F \u00b7 Round-Robin",
+   "teamA": "F1",
+   "teamB": "F3"
   },
   {
    "day": "Sat Aug 15",
    "slot": 15,
-   "time": "1:30 PM",
-   "court": 3,
-   "stage": "Pool B \u00b7 RR R4",
+   "time": "11:30 AM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
    "teamA": "B1",
    "teamB": "B3"
   },
   {
    "day": "Sat Aug 15",
    "slot": 15,
-   "time": "1:30 PM",
-   "court": 4,
-   "stage": "Pool B \u00b7 RR R4",
-   "teamA": "B4",
-   "teamB": "B2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 16,
-   "time": "1:50 PM",
-   "court": 1,
-   "stage": "Pool C \u00b7 RR R4",
-   "teamA": "C1",
-   "teamB": "C3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 16,
-   "time": "1:50 PM",
+   "time": "11:30 AM",
    "court": 2,
-   "stage": "Pool C \u00b7 RR R4",
-   "teamA": "C4",
-   "teamB": "C2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 16,
-   "time": "1:50 PM",
-   "court": 3,
-   "stage": "Pool D \u00b7 RR R4",
-   "teamA": "D1",
-   "teamB": "D3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 16,
-   "time": "1:50 PM",
-   "court": 4,
-   "stage": "Pool D \u00b7 RR R4",
-   "teamA": "D4",
-   "teamB": "D2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 17,
-   "time": "2:10 PM",
-   "court": 1,
-   "stage": "Pool E \u00b7 RR R4",
-   "teamA": "E1",
-   "teamB": "E3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 17,
-   "time": "2:10 PM",
-   "court": 2,
-   "stage": "Pool E \u00b7 RR R4",
-   "teamA": "E4",
-   "teamB": "E2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 17,
-   "time": "2:10 PM",
-   "court": 3,
-   "stage": "Pool F \u00b7 RR R4",
-   "teamA": "F1",
-   "teamB": "F3"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 17,
-   "time": "2:10 PM",
-   "court": 4,
-   "stage": "Pool F \u00b7 RR R4",
-   "teamA": "F4",
-   "teamB": "F2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 18,
-   "time": "2:30 PM",
-   "court": 1,
-   "stage": "Pool G \u00b7 RR R4",
+   "stage": "Pool G \u00b7 Round-Robin",
    "teamA": "G1",
    "teamB": "G3"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 18,
-   "time": "2:30 PM",
-   "court": 2,
-   "stage": "Pool G \u00b7 RR R4",
-   "teamA": "G4",
-   "teamB": "G2"
+   "slot": 16,
+   "time": "11:42 AM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K2",
+   "teamB": "K3"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 18,
-   "time": "2:30 PM",
-   "court": 3,
-   "stage": "Pool H \u00b7 RR R4",
+   "slot": 16,
+   "time": "11:42 AM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L2",
+   "teamB": "L3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 17,
+   "time": "11:54 AM",
+   "court": 1,
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C1",
+   "teamB": "C3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 17,
+   "time": "11:54 AM",
+   "court": 2,
+   "stage": "Pool H \u00b7 Round-Robin",
    "teamA": "H1",
    "teamB": "H3"
   },
   {
    "day": "Sat Aug 15",
    "slot": 18,
-   "time": "2:30 PM",
-   "court": 4,
-   "stage": "Pool H \u00b7 RR R4",
-   "teamA": "H4",
-   "teamB": "H2"
+   "time": "12:06 PM",
+   "court": 1,
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D1",
+   "teamB": "D3"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 19,
-   "time": "2:50 PM",
-   "court": 1,
-   "stage": "Pool I \u00b7 RR R4",
+   "slot": 18,
+   "time": "12:06 PM",
+   "court": 2,
+   "stage": "Pool I \u00b7 Round-Robin",
    "teamA": "I1",
    "teamB": "I3"
   },
   {
    "day": "Sat Aug 15",
    "slot": 19,
-   "time": "2:50 PM",
-   "court": 2,
-   "stage": "Pool I \u00b7 RR R4",
-   "teamA": "I4",
-   "teamB": "I2"
+   "time": "12:18 PM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E1",
+   "teamB": "E3"
   },
   {
    "day": "Sat Aug 15",
    "slot": 19,
-   "time": "2:50 PM",
-   "court": 3,
-   "stage": "Pool J \u00b7 RR R4",
+   "time": "12:18 PM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
    "teamA": "J1",
    "teamB": "J3"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 19,
-   "time": "2:50 PM",
-   "court": 4,
-   "stage": "Pool J \u00b7 RR R4",
-   "teamA": "J4",
-   "teamB": "J2"
+   "slot": 20,
+   "time": "1:00 PM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K2",
+   "teamB": "K4"
   },
   {
    "day": "Sat Aug 15",
    "slot": 20,
-   "time": "3:10 PM",
+   "time": "1:00 PM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L2",
+   "teamB": "L4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 21,
+   "time": "1:12 PM",
    "court": 1,
-   "stage": "Pool A \u00b7 RR R5",
+   "stage": "Pool A \u00b7 Round-Robin",
+   "teamA": "A2",
+   "teamB": "A4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 21,
+   "time": "1:12 PM",
+   "court": 2,
+   "stage": "Pool F \u00b7 Round-Robin",
+   "teamA": "F2",
+   "teamB": "F4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 22,
+   "time": "1:24 PM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
+   "teamA": "B2",
+   "teamB": "B4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 22,
+   "time": "1:24 PM",
+   "court": 2,
+   "stage": "Pool G \u00b7 Round-Robin",
+   "teamA": "G2",
+   "teamB": "G4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 23,
+   "time": "1:36 PM",
+   "court": 1,
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C2",
+   "teamB": "C4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 23,
+   "time": "1:36 PM",
+   "court": 2,
+   "stage": "Pool H \u00b7 Round-Robin",
+   "teamA": "H2",
+   "teamB": "H4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 24,
+   "time": "1:48 PM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K2",
+   "teamB": "K5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 24,
+   "time": "1:48 PM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L2",
+   "teamB": "L5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 25,
+   "time": "2:00 PM",
+   "court": 1,
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D2",
+   "teamB": "D4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 25,
+   "time": "2:00 PM",
+   "court": 2,
+   "stage": "Pool I \u00b7 Round-Robin",
+   "teamA": "I2",
+   "teamB": "I4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 26,
+   "time": "2:12 PM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E2",
+   "teamB": "E4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 26,
+   "time": "2:12 PM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
+   "teamA": "J2",
+   "teamB": "J4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 27,
+   "time": "2:24 PM",
+   "court": 1,
+   "stage": "Pool A \u00b7 Round-Robin",
    "teamA": "A1",
-   "teamB": "A2"
+   "teamB": "A4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 20,
-   "time": "3:10 PM",
+   "slot": 27,
+   "time": "2:24 PM",
    "court": 2,
-   "stage": "Pool A \u00b7 RR R5",
-   "teamA": "A4",
-   "teamB": "A5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 20,
-   "time": "3:10 PM",
-   "court": 3,
-   "stage": "Pool B \u00b7 RR R5",
-   "teamA": "B1",
-   "teamB": "B2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 20,
-   "time": "3:10 PM",
-   "court": 4,
-   "stage": "Pool B \u00b7 RR R5",
-   "teamA": "B4",
-   "teamB": "B5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 21,
-   "time": "3:30 PM",
-   "court": 1,
-   "stage": "Pool C \u00b7 RR R5",
-   "teamA": "C1",
-   "teamB": "C2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 21,
-   "time": "3:30 PM",
-   "court": 2,
-   "stage": "Pool C \u00b7 RR R5",
-   "teamA": "C4",
-   "teamB": "C5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 21,
-   "time": "3:30 PM",
-   "court": 3,
-   "stage": "Pool D \u00b7 RR R5",
-   "teamA": "D1",
-   "teamB": "D2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 21,
-   "time": "3:30 PM",
-   "court": 4,
-   "stage": "Pool D \u00b7 RR R5",
-   "teamA": "D4",
-   "teamB": "D5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 22,
-   "time": "3:50 PM",
-   "court": 1,
-   "stage": "Pool E \u00b7 RR R5",
-   "teamA": "E1",
-   "teamB": "E2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 22,
-   "time": "3:50 PM",
-   "court": 2,
-   "stage": "Pool E \u00b7 RR R5",
-   "teamA": "E4",
-   "teamB": "E5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 22,
-   "time": "3:50 PM",
-   "court": 3,
-   "stage": "Pool F \u00b7 RR R5",
+   "stage": "Pool F \u00b7 Round-Robin",
    "teamA": "F1",
-   "teamB": "F2"
+   "teamB": "F4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 22,
-   "time": "3:50 PM",
-   "court": 4,
-   "stage": "Pool F \u00b7 RR R5",
-   "teamA": "F4",
-   "teamB": "F5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 23,
-   "time": "4:10 PM",
+   "slot": 28,
+   "time": "2:36 PM",
    "court": 1,
-   "stage": "Pool G \u00b7 RR R5",
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K3",
+   "teamB": "K4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 28,
+   "time": "2:36 PM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L3",
+   "teamB": "L4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 29,
+   "time": "2:48 PM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
+   "teamA": "B1",
+   "teamB": "B4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 29,
+   "time": "2:48 PM",
+   "court": 2,
+   "stage": "Pool G \u00b7 Round-Robin",
    "teamA": "G1",
-   "teamB": "G2"
+   "teamB": "G4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 23,
-   "time": "4:10 PM",
-   "court": 2,
-   "stage": "Pool G \u00b7 RR R5",
-   "teamA": "G4",
-   "teamB": "G5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 23,
-   "time": "4:10 PM",
-   "court": 3,
-   "stage": "Pool H \u00b7 RR R5",
-   "teamA": "H1",
-   "teamB": "H2"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 23,
-   "time": "4:10 PM",
-   "court": 4,
-   "stage": "Pool H \u00b7 RR R5",
-   "teamA": "H4",
-   "teamB": "H5"
-  },
-  {
-   "day": "Sat Aug 15",
-   "slot": 24,
-   "time": "4:30 PM",
+   "slot": 30,
+   "time": "3:00 PM",
    "court": 1,
-   "stage": "Pool I \u00b7 RR R5",
-   "teamA": "I1",
-   "teamB": "I2"
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C1",
+   "teamB": "C4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 24,
-   "time": "4:30 PM",
+   "slot": 30,
+   "time": "3:00 PM",
    "court": 2,
-   "stage": "Pool I \u00b7 RR R5",
-   "teamA": "I4",
-   "teamB": "I5"
+   "stage": "Pool H \u00b7 Round-Robin",
+   "teamA": "H1",
+   "teamB": "H4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 24,
-   "time": "4:30 PM",
-   "court": 3,
-   "stage": "Pool J \u00b7 RR R5",
+   "slot": 31,
+   "time": "3:12 PM",
+   "court": 1,
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D1",
+   "teamB": "D4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 31,
+   "time": "3:12 PM",
+   "court": 2,
+   "stage": "Pool I \u00b7 Round-Robin",
+   "teamA": "I1",
+   "teamB": "I4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 32,
+   "time": "3:24 PM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K3",
+   "teamB": "K5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 32,
+   "time": "3:24 PM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L3",
+   "teamB": "L5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 33,
+   "time": "3:36 PM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E1",
+   "teamB": "E4"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 33,
+   "time": "3:36 PM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
    "teamA": "J1",
-   "teamB": "J2"
+   "teamB": "J4"
   },
   {
    "day": "Sat Aug 15",
-   "slot": 24,
-   "time": "4:30 PM",
-   "court": 4,
-   "stage": "Pool J \u00b7 RR R5",
-   "teamA": "J4",
-   "teamB": "J5"
+   "slot": 34,
+   "time": "3:48 PM",
+   "court": 1,
+   "stage": "Pool A \u00b7 Round-Robin",
+   "teamA": "A2",
+   "teamB": "A3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 34,
+   "time": "3:48 PM",
+   "court": 2,
+   "stage": "Pool F \u00b7 Round-Robin",
+   "teamA": "F2",
+   "teamB": "F3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 35,
+   "time": "4:00 PM",
+   "court": 1,
+   "stage": "Pool B \u00b7 Round-Robin",
+   "teamA": "B2",
+   "teamB": "B3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 35,
+   "time": "4:00 PM",
+   "court": 2,
+   "stage": "Pool G \u00b7 Round-Robin",
+   "teamA": "G2",
+   "teamB": "G3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 36,
+   "time": "4:12 PM",
+   "court": 1,
+   "stage": "Pool K \u00b7 Round-Robin",
+   "teamA": "K4",
+   "teamB": "K5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 36,
+   "time": "4:12 PM",
+   "court": 2,
+   "stage": "Pool L \u00b7 Round-Robin",
+   "teamA": "L4",
+   "teamB": "L5"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 37,
+   "time": "4:24 PM",
+   "court": 1,
+   "stage": "Pool C \u00b7 Round-Robin",
+   "teamA": "C2",
+   "teamB": "C3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 37,
+   "time": "4:24 PM",
+   "court": 2,
+   "stage": "Pool H \u00b7 Round-Robin",
+   "teamA": "H2",
+   "teamB": "H3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 38,
+   "time": "4:36 PM",
+   "court": 1,
+   "stage": "Pool D \u00b7 Round-Robin",
+   "teamA": "D2",
+   "teamB": "D3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 38,
+   "time": "4:36 PM",
+   "court": 2,
+   "stage": "Pool I \u00b7 Round-Robin",
+   "teamA": "I2",
+   "teamB": "I3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 39,
+   "time": "4:48 PM",
+   "court": 1,
+   "stage": "Pool E \u00b7 Round-Robin",
+   "teamA": "E2",
+   "teamB": "E3"
+  },
+  {
+   "day": "Sat Aug 15",
+   "slot": 39,
+   "time": "4:48 PM",
+   "court": 2,
+   "stage": "Pool J \u00b7 Round-Robin",
+   "teamA": "J2",
+   "teamB": "J3"
   }
  ],
  "day2": [
@@ -907,14 +727,32 @@
    "slot": 0,
    "time": "9:00 AM",
    "court": 1,
+   "stage": "Community \u00b7 Play-In 1",
+   "teamA": "Seed 47",
+   "teamB": "Seed 50"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 0,
+   "time": "9:00 AM",
+   "court": 2,
+   "stage": "Community \u00b7 Play-In 2",
+   "teamA": "Seed 48",
+   "teamB": "Seed 49"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 1,
+   "time": "9:12 AM",
+   "court": 1,
    "stage": "Championship \u00b7 R16 Game 1",
    "teamA": "Seed 1",
    "teamB": "Seed 16"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 0,
-   "time": "9:00 AM",
+   "slot": 1,
+   "time": "9:12 AM",
    "court": 2,
    "stage": "Championship \u00b7 R16 Game 2",
    "teamA": "Seed 8",
@@ -922,26 +760,26 @@
   },
   {
    "day": "Sun Aug 16",
-   "slot": 0,
-   "time": "9:00 AM",
-   "court": 3,
+   "slot": 2,
+   "time": "9:24 AM",
+   "court": 1,
    "stage": "Championship \u00b7 R16 Game 3",
    "teamA": "Seed 5",
    "teamB": "Seed 12"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 0,
-   "time": "9:00 AM",
-   "court": 4,
+   "slot": 2,
+   "time": "9:24 AM",
+   "court": 2,
    "stage": "Championship \u00b7 R16 Game 4",
    "teamA": "Seed 4",
    "teamB": "Seed 13"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 1,
-   "time": "9:20 AM",
+   "slot": 3,
+   "time": "9:36 AM",
    "court": 1,
    "stage": "Championship \u00b7 R16 Game 5",
    "teamA": "Seed 3",
@@ -949,8 +787,8 @@
   },
   {
    "day": "Sun Aug 16",
-   "slot": 1,
-   "time": "9:20 AM",
+   "slot": 3,
+   "time": "9:36 AM",
    "court": 2,
    "stage": "Championship \u00b7 R16 Game 6",
    "teamA": "Seed 6",
@@ -958,496 +796,361 @@
   },
   {
    "day": "Sun Aug 16",
-   "slot": 1,
-   "time": "9:20 AM",
-   "court": 3,
+   "slot": 4,
+   "time": "9:48 AM",
+   "court": 1,
    "stage": "Championship \u00b7 R16 Game 7",
    "teamA": "Seed 7",
    "teamB": "Seed 10"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 1,
-   "time": "9:20 AM",
-   "court": 4,
+   "slot": 4,
+   "time": "9:48 AM",
+   "court": 2,
    "stage": "Championship \u00b7 R16 Game 8",
    "teamA": "Seed 2",
    "teamB": "Seed 15"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 2,
-   "time": "9:40 AM",
+   "slot": 5,
+   "time": "10:00 AM",
    "court": 1,
    "stage": "Consolation \u00b7 R16 Game 1",
-   "teamA": "C1",
-   "teamB": "C16"
+   "teamA": "Seed 17",
+   "teamB": "Seed 32"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 2,
-   "time": "9:40 AM",
+   "slot": 5,
+   "time": "10:00 AM",
    "court": 2,
    "stage": "Consolation \u00b7 R16 Game 2",
-   "teamA": "C8",
-   "teamB": "C9"
+   "teamA": "Seed 24",
+   "teamB": "Seed 25"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 2,
-   "time": "9:40 AM",
-   "court": 3,
+   "slot": 6,
+   "time": "10:12 AM",
+   "court": 1,
    "stage": "Consolation \u00b7 R16 Game 3",
-   "teamA": "C5",
-   "teamB": "C12"
+   "teamA": "Seed 21",
+   "teamB": "Seed 28"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 2,
-   "time": "9:40 AM",
-   "court": 4,
+   "slot": 6,
+   "time": "10:12 AM",
+   "court": 2,
    "stage": "Consolation \u00b7 R16 Game 4",
-   "teamA": "C4",
-   "teamB": "C13"
+   "teamA": "Seed 20",
+   "teamB": "Seed 29"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 3,
-   "time": "10:00 AM",
+   "slot": 7,
+   "time": "10:24 AM",
    "court": 1,
    "stage": "Consolation \u00b7 R16 Game 5",
-   "teamA": "C3",
-   "teamB": "C14"
+   "teamA": "Seed 19",
+   "teamB": "Seed 30"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 3,
-   "time": "10:00 AM",
+   "slot": 7,
+   "time": "10:24 AM",
    "court": 2,
    "stage": "Consolation \u00b7 R16 Game 6",
-   "teamA": "C6",
-   "teamB": "C11"
+   "teamA": "Seed 22",
+   "teamB": "Seed 27"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 3,
-   "time": "10:00 AM",
-   "court": 3,
+   "slot": 8,
+   "time": "10:36 AM",
+   "court": 1,
    "stage": "Consolation \u00b7 R16 Game 7",
-   "teamA": "C7",
-   "teamB": "C10"
+   "teamA": "Seed 23",
+   "teamB": "Seed 26"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 3,
-   "time": "10:00 AM",
-   "court": 4,
+   "slot": 8,
+   "time": "10:36 AM",
+   "court": 2,
    "stage": "Consolation \u00b7 R16 Game 8",
-   "teamA": "C2",
-   "teamB": "C15"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 4,
-   "time": "10:20 AM",
-   "court": 1,
-   "stage": "Community Pod 1 \u00b7 Game 1",
-   "teamA": "M1",
-   "teamB": "M2"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 4,
-   "time": "10:20 AM",
-   "court": 2,
-   "stage": "Community Pod 1 \u00b7 Game 2",
-   "teamA": "M1",
-   "teamB": "M3"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 4,
-   "time": "10:20 AM",
-   "court": 3,
-   "stage": "Community Pod 1 \u00b7 Game 3",
-   "teamA": "M1",
-   "teamB": "M4"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 4,
-   "time": "10:20 AM",
-   "court": 4,
-   "stage": "Community Pod 1 \u00b7 Game 4",
-   "teamA": "M1",
-   "teamB": "M5"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 5,
-   "time": "10:40 AM",
-   "court": 1,
-   "stage": "Community Pod 1 \u00b7 Game 5",
-   "teamA": "M1",
-   "teamB": "M6"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 5,
-   "time": "10:40 AM",
-   "court": 2,
-   "stage": "Community Pod 1 \u00b7 Game 6",
-   "teamA": "M2",
-   "teamB": "M3"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 5,
-   "time": "10:40 AM",
-   "court": 3,
-   "stage": "Community Pod 1 \u00b7 Game 7",
-   "teamA": "M2",
-   "teamB": "M4"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 5,
-   "time": "10:40 AM",
-   "court": 4,
-   "stage": "Community Pod 1 \u00b7 Game 8",
-   "teamA": "M2",
-   "teamB": "M5"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 6,
-   "time": "11:00 AM",
-   "court": 1,
-   "stage": "Community Pod 1 \u00b7 Game 9",
-   "teamA": "M2",
-   "teamB": "M6"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 6,
-   "time": "11:00 AM",
-   "court": 2,
-   "stage": "Community Pod 2 \u00b7 Game 1",
-   "teamA": "N1",
-   "teamB": "N2"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 6,
-   "time": "11:00 AM",
-   "court": 3,
-   "stage": "Community Pod 2 \u00b7 Game 2",
-   "teamA": "N1",
-   "teamB": "N3"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 6,
-   "time": "11:00 AM",
-   "court": 4,
-   "stage": "Community Pod 2 \u00b7 Game 3",
-   "teamA": "N1",
-   "teamB": "N4"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 7,
-   "time": "11:20 AM",
-   "court": 1,
-   "stage": "Community Pod 2 \u00b7 Game 4",
-   "teamA": "N1",
-   "teamB": "N5"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 7,
-   "time": "11:20 AM",
-   "court": 2,
-   "stage": "Community Pod 2 \u00b7 Game 5",
-   "teamA": "N1",
-   "teamB": "N6"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 7,
-   "time": "11:20 AM",
-   "court": 3,
-   "stage": "Community Pod 2 \u00b7 Game 6",
-   "teamA": "N2",
-   "teamB": "N3"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 7,
-   "time": "11:20 AM",
-   "court": 4,
-   "stage": "Community Pod 2 \u00b7 Game 7",
-   "teamA": "N2",
-   "teamB": "N4"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 8,
-   "time": "11:40 AM",
-   "court": 1,
-   "stage": "Community Pod 2 \u00b7 Game 8",
-   "teamA": "N2",
-   "teamB": "N5"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 8,
-   "time": "11:40 AM",
-   "court": 2,
-   "stage": "Community Pod 2 \u00b7 Game 9",
-   "teamA": "N2",
-   "teamB": "N6"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 8,
-   "time": "11:40 AM",
-   "court": 3,
-   "stage": "Community Pod 3 \u00b7 Game 1",
-   "teamA": "O1",
-   "teamB": "O2"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 8,
-   "time": "11:40 AM",
-   "court": 4,
-   "stage": "Community Pod 3 \u00b7 Game 2",
-   "teamA": "O1",
-   "teamB": "O3"
+   "teamA": "Seed 18",
+   "teamB": "Seed 31"
   },
   {
    "day": "Sun Aug 16",
    "slot": 9,
-   "time": "12:00 PM",
+   "time": "10:48 AM",
    "court": 1,
-   "stage": "Community Pod 3 \u00b7 Game 3",
-   "teamA": "O1",
-   "teamB": "O4"
+   "stage": "Community \u00b7 R16 Game 1",
+   "teamA": "Seed 33",
+   "teamB": "PI-2 Winner"
   },
   {
    "day": "Sun Aug 16",
    "slot": 9,
-   "time": "12:00 PM",
+   "time": "10:48 AM",
    "court": 2,
-   "stage": "Community Pod 3 \u00b7 Game 4",
-   "teamA": "O1",
-   "teamB": "O5"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 9,
-   "time": "12:00 PM",
-   "court": 3,
-   "stage": "Community Pod 3 \u00b7 Game 5",
-   "teamA": "O1",
-   "teamB": "O6"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 9,
-   "time": "12:00 PM",
-   "court": 4,
-   "stage": "Community Pod 3 \u00b7 Game 6",
-   "teamA": "O2",
-   "teamB": "O3"
+   "stage": "Community \u00b7 R16 Game 2",
+   "teamA": "Seed 40",
+   "teamB": "Seed 41"
   },
   {
    "day": "Sun Aug 16",
    "slot": 10,
-   "time": "12:20 PM",
+   "time": "11:00 AM",
    "court": 1,
-   "stage": "Community Pod 3 \u00b7 Game 7",
-   "teamA": "O2",
-   "teamB": "O4"
+   "stage": "Community \u00b7 R16 Game 3",
+   "teamA": "Seed 37",
+   "teamB": "Seed 44"
   },
   {
    "day": "Sun Aug 16",
    "slot": 10,
-   "time": "12:20 PM",
+   "time": "11:00 AM",
    "court": 2,
-   "stage": "Community Pod 3 \u00b7 Game 8",
-   "teamA": "O2",
-   "teamB": "O5"
+   "stage": "Community \u00b7 R16 Game 4",
+   "teamA": "Seed 36",
+   "teamB": "Seed 45"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 10,
-   "time": "12:20 PM",
-   "court": 3,
-   "stage": "Community Pod 3 \u00b7 Game 9",
-   "teamA": "O2",
-   "teamB": "O6"
+   "slot": 11,
+   "time": "11:12 AM",
+   "court": 1,
+   "stage": "Community \u00b7 R16 Game 5",
+   "teamA": "Seed 35",
+   "teamB": "Seed 46"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 10,
-   "time": "12:20 PM",
-   "court": 4,
+   "slot": 11,
+   "time": "11:12 AM",
+   "court": 2,
+   "stage": "Community \u00b7 R16 Game 6",
+   "teamA": "Seed 38",
+   "teamB": "Seed 43"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 12,
+   "time": "11:24 AM",
+   "court": 1,
+   "stage": "Community \u00b7 R16 Game 7",
+   "teamA": "Seed 39",
+   "teamB": "Seed 42"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 12,
+   "time": "11:24 AM",
+   "court": 2,
+   "stage": "Community \u00b7 R16 Game 8",
+   "teamA": "Seed 34",
+   "teamB": "PI-1 Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 13,
+   "time": "11:36 AM",
+   "court": 1,
    "stage": "Championship \u00b7 QF Game 1",
-   "teamA": "QF 1 A",
-   "teamB": "QF 1 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 11,
-   "time": "12:40 PM",
-   "court": 1,
+   "slot": 13,
+   "time": "11:36 AM",
+   "court": 2,
    "stage": "Championship \u00b7 QF Game 2",
-   "teamA": "QF 2 A",
-   "teamB": "QF 2 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 11,
-   "time": "12:40 PM",
-   "court": 2,
+   "slot": 14,
+   "time": "11:48 AM",
+   "court": 1,
    "stage": "Championship \u00b7 QF Game 3",
-   "teamA": "QF 3 A",
-   "teamB": "QF 3 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 11,
-   "time": "12:40 PM",
-   "court": 3,
+   "slot": 14,
+   "time": "11:48 AM",
+   "court": 2,
    "stage": "Championship \u00b7 QF Game 4",
-   "teamA": "QF 4 A",
-   "teamB": "QF 4 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 11,
-   "time": "12:40 PM",
-   "court": 4,
+   "slot": 15,
+   "time": "12:00 PM",
+   "court": 1,
    "stage": "Consolation \u00b7 QF Game 1",
-   "teamA": "CQF 1 A",
-   "teamB": "CQF 1 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 12,
-   "time": "1:00 PM",
-   "court": 1,
+   "slot": 15,
+   "time": "12:00 PM",
+   "court": 2,
    "stage": "Consolation \u00b7 QF Game 2",
-   "teamA": "CQF 2 A",
-   "teamB": "CQF 2 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 12,
-   "time": "1:00 PM",
-   "court": 2,
+   "slot": 16,
+   "time": "12:12 PM",
+   "court": 1,
    "stage": "Consolation \u00b7 QF Game 3",
-   "teamA": "CQF 3 A",
-   "teamB": "CQF 3 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 12,
-   "time": "1:00 PM",
-   "court": 3,
+   "slot": 16,
+   "time": "12:12 PM",
+   "court": 2,
    "stage": "Consolation \u00b7 QF Game 4",
-   "teamA": "CQF 4 A",
-   "teamB": "CQF 4 B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 12,
-   "time": "1:00 PM",
-   "court": 4,
+   "slot": 17,
+   "time": "12:24 PM",
+   "court": 1,
+   "stage": "Community \u00b7 QF Game 1",
+   "teamA": "Winner",
+   "teamB": "Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 17,
+   "time": "12:24 PM",
+   "court": 2,
+   "stage": "Community \u00b7 QF Game 2",
+   "teamA": "Winner",
+   "teamB": "Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 18,
+   "time": "12:36 PM",
+   "court": 1,
+   "stage": "Community \u00b7 QF Game 3",
+   "teamA": "Winner",
+   "teamB": "Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 18,
+   "time": "12:36 PM",
+   "court": 2,
+   "stage": "Community \u00b7 QF Game 4",
+   "teamA": "Winner",
+   "teamB": "Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 19,
+   "time": "1:15 PM",
+   "court": 1,
    "stage": "Championship \u00b7 SF Game 1",
-   "teamA": "SF A",
-   "teamB": "SF B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 13,
-   "time": "1:20 PM",
-   "court": 1,
+   "slot": 19,
+   "time": "1:15 PM",
+   "court": 2,
    "stage": "Championship \u00b7 SF Game 2",
-   "teamA": "SF A",
-   "teamB": "SF B"
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 13,
-   "time": "1:20 PM",
-   "court": 2,
-   "stage": "Consolation \u00b7 SF Game 1",
-   "teamA": "SF A",
-   "teamB": "SF B"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 13,
-   "time": "1:20 PM",
-   "court": 3,
-   "stage": "Consolation \u00b7 SF Game 2",
-   "teamA": "SF A",
-   "teamB": "SF B"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 13,
-   "time": "1:20 PM",
-   "court": 4,
-   "stage": "Community \u00b7 Semifinal 1",
-   "teamA": "Pod winner",
-   "teamB": "Best 2nd"
-  },
-  {
-   "day": "Sun Aug 16",
-   "slot": 14,
-   "time": "1:40 PM",
+   "slot": 20,
+   "time": "1:27 PM",
    "court": 1,
-   "stage": "Community \u00b7 Semifinal 2",
-   "teamA": "Pod winner",
-   "teamB": "Pod winner"
+   "stage": "Consolation \u00b7 SF Game 1",
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 14,
-   "time": "1:40 PM",
+   "slot": 20,
+   "time": "1:27 PM",
    "court": 2,
-   "stage": "Championship \u00b7 3RD-PLACE GAME",
-   "teamA": "SF loser",
-   "teamB": "SF loser"
+   "stage": "Consolation \u00b7 SF Game 2",
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 14,
-   "time": "1:40 PM",
-   "court": 3,
-   "stage": "Consolation \u00b7 FINAL",
-   "teamA": "Finalist",
-   "teamB": "Finalist"
+   "slot": 21,
+   "time": "1:39 PM",
+   "court": 1,
+   "stage": "Community \u00b7 SF Game 1",
+   "teamA": "Winner",
+   "teamB": "Winner"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 14,
-   "time": "1:40 PM",
-   "court": 4,
+   "slot": 21,
+   "time": "1:39 PM",
+   "court": 2,
+   "stage": "Community \u00b7 SF Game 2",
+   "teamA": "Winner",
+   "teamB": "Winner"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 22,
+   "time": "2:00 PM",
+   "court": 1,
    "stage": "Community \u00b7 FINAL",
    "teamA": "Finalist",
    "teamB": "Finalist"
   },
   {
    "day": "Sun Aug 16",
-   "slot": 15,
+   "slot": 22,
    "time": "2:00 PM",
+   "court": 2,
+   "stage": "Consolation \u00b7 FINAL",
+   "teamA": "Finalist",
+   "teamB": "Finalist"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 23,
+   "time": "2:15 PM",
    "court": 1,
-   "stage": "CHAMPIONSHIP \u00b7 FINAL (Pervis Polk Cup)",
+   "stage": "Championship \u00b7 3RD PLACE",
+   "teamA": "SF Loser",
+   "teamB": "SF Loser"
+  },
+  {
+   "day": "Sun Aug 16",
+   "slot": 24,
+   "time": "2:30 PM",
+   "court": 1,
+   "stage": "CHAMPIONSHIP \u00b7 FINAL (Pervis Polk Cup \u00b7 to 21)",
    "teamA": "Finalist",
    "teamB": "Finalist"
   }

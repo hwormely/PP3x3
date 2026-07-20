@@ -2,37 +2,30 @@
   "tiers": [
     {
       "id": "title",
-      "label": "Title Sponsor",
-      "price": "$1,000",
-      "description": "Premier brand placement — logo on all materials, featured on every page, presenting sponsor recognition.",
+      "label": "Presenting / Title",
+      "price": "$3,000+",
+      "description": "Co-named \"presented by\" \u2014 logo on BOTH courts + main banner, PA all weekend, shirts, booth, social + press.",
       "sponsors": []
     },
     {
       "id": "court",
       "label": "Court Sponsor",
-      "price": "$500",
-      "description": "Named court sponsorship — logo on court signage, website, and printed schedule.",
-      "sponsors": []
-    },
-    {
-      "id": "trophy",
-      "label": "Trophy Sponsor",
-      "price": "$350",
-      "description": "Logo on trophy table, website, and awards ceremony recognition.",
+      "price": "$1,500",
+      "description": "Your name on one of the two courts, banner, PA shout-outs, shirts. Two available.",
       "sponsors": []
     },
     {
       "id": "community",
-      "label": "Community Friend",
-      "price": "$150",
-      "description": "Name/logo on website and event program.",
+      "label": "Community Supporter",
+      "price": "$500",
+      "description": "Name on banner + program, social thank-you \u2014 for local businesses & families.",
       "sponsors": []
     },
     {
       "id": "inkind",
       "label": "In-Kind",
       "price": "Goods/Services",
-      "description": "Donated goods or services. Recognition on website and event day.",
+      "description": "Balls, water, tents, printing, EMT, DJ, food \u2014 credited at fair value.",
       "sponsors": []
     }
   ]

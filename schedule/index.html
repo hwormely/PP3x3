@@ -79,9 +79,9 @@ footer strong{color:var(--paper)}
   <div class="hero">
     <div class="kick"><span style="color:var(--blue)">→</span> Aug 15–16, 2026 · Blair High School · Pasadena</div>
     <h1>FULL<br>SCHEDULE</h1>
-    <p class="lede">161 games across 2 days. Search your team name to see your games, or filter by day, court, or pool.</p>
-    <p style="font-size:14px;color:var(--brown);font-weight:600;margin-top:12px;">Games to 17 — Cal Tech 17 · championship to 21.</p>
-    <p style="margin-top:16px;"><a href="/PP3x3/resources/Master_Schedule.pdf" style="display:inline-flex;align-items:center;gap:7px;font-family:'Inter';font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--paper);border:1px solid var(--line);border-radius:999px;padding:9px 18px;text-decoration:none;">↓ Printable PDF · Both Days + Court Grids</a></p>
+    <p class="lede">128 games across 2 days. Search your team name to see your games, or filter by day, court, or pool.</p>
+    <p style="font-size:14px;color:var(--brown);font-weight:600;margin-top:12px;">Games to 17 or 8 minutes — Cal Tech 17 · championship to 21.</p>
+    <p style="margin-top:16px;"><a href="/PP3x3/resources/Schedule_and_Brackets.pdf" style="display:inline-flex;align-items:center;gap:7px;font-family:'Inter';font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--paper);border:1px solid var(--line);border-radius:999px;padding:9px 18px;text-decoration:none;">↓ Printable PDF · Schedule &amp; Brackets</a></p>
   </div>
 
   <div class="controls">
@@ -95,8 +95,6 @@ footer strong{color:var(--paper)}
       <button class="filter-btn" data-filter="day2">Sun Aug 16</button>
       <button class="filter-btn" data-filter="court1">Court 1</button>
       <button class="filter-btn" data-filter="court2">Court 2</button>
-      <button class="filter-btn" data-filter="court3">Court 3</button>
-      <button class="filter-btn" data-filter="court4">Court 4</button>
     </div>
     <span id="results-count"></span>
   </div>
@@ -147,8 +145,6 @@ footer strong{color:var(--paper)}
     if(activeFilter === 'day2' && dayKey !== 'day2') return false;
     if(activeFilter === 'court1' && game.court !== 1) return false;
     if(activeFilter === 'court2' && game.court !== 2) return false;
-    if(activeFilter === 'court3' && game.court !== 3) return false;
-    if(activeFilter === 'court4' && game.court !== 4) return false;
     if(searchTerm) {
       var a = (game.teamA||'').toLowerCase();
       var b = (game.teamB||'').toLowerCase();
@@ -163,8 +159,8 @@ footer strong{color:var(--paper)}
     var out = '';
     var total = 0;
     var days = [
-      {key:'day1', label:'Saturday, Aug 15', sub:'Pool Play · 100 games · Courts 1–4 · 8:30 AM start'},
-      {key:'day2', label:'Sunday, Aug 16', sub:'Bracket Play · 61 games · Courts 1–4 · 9:00 AM start'}
+      {key:'day1', label:'Saturday, Aug 15', sub:'Pool Play · 80 games · Courts 1–2 · 8:30 AM start'},
+      {key:'day2', label:'Sunday, Aug 16', sub:'Bracket Play · 48 games · Courts 1–2 · 9:00 AM start'}
     ];
     days.forEach(function(d){
       var games = (scheduleData[d.key]||[]).filter(function(g){ return matchesFilter(g, d.key); });
